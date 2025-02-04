@@ -61,9 +61,9 @@
             // 
             // htmlCredits
             // 
+            resources.ApplyResources(this.htmlCredits, "htmlCredits");
             this.htmlCredits.BackColor = System.Drawing.Color.Transparent;
             this.htmlCredits.BaseStylesheet = null;
-            resources.ApplyResources(this.htmlCredits, "htmlCredits");
             this.htmlCredits.Name = "htmlCredits";
             // 
             // labelLicense
@@ -73,8 +73,8 @@
             // 
             // pictureIcon
             // 
-            this.pictureIcon.BackgroundImage = global::TinyHugeTweaks.Properties.Resources.tbk_icon_m;
             resources.ApplyResources(this.pictureIcon, "pictureIcon");
+            this.pictureIcon.BackgroundImage = global::TinyHugeTweaks.Properties.Resources.tbk_icon_m;
             this.pictureIcon.Name = "pictureIcon";
             this.pictureIcon.TabStop = false;
             // 
