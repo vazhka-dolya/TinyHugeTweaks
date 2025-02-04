@@ -1,0 +1,1846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;groupMPHideAll.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="&gt;&gt;pictureMP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupAdvancedTexture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="comboBlackOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupAdvancedTexture.Name" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSparkles.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegL2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupMPHideAll.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnRemoveBubbles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="checkMPCore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="checkMPLeftHand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 194</value>
+  </data>
+  <data name="checkMPLegR2.Text" xml:space="preserve">
+    <value>Leg R2</value>
+  </data>
+  <data name="&gt;&gt;groupBlackTextures.Name" xml:space="preserve">
+    <value>groupBlackTextures</value>
+  </data>
+  <data name="checkMPHead.Text" xml:space="preserve">
+    <value> 
+Head
+ </value>
+  </data>
+  <data name="&gt;&gt;checkMPLegR1.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="comboBlackInput.Items3" xml:space="preserve">
+    <value>4. Alpha RGBA texture with fog (FC FF FF FF FF FC F2 38)</value>
+  </data>
+  <data name="checkMPLegL2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkMPLegR1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="btnRemoveSplashes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 48</value>
+  </data>
+  <data name="checkMPLeftFoot.Text" xml:space="preserve">
+    <value>Foot L</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmR1.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="pictureMP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 19</value>
+  </data>
+  <data name="comboBlackInput.Items" xml:space="preserve">
+    <value>1. Solid RGBA texture without fog (FC 12 7E 24 FF FF F9 FC)</value>
+  </data>
+  <data name="&gt;&gt;checkMPRightFoot.Name" xml:space="preserve">
+    <value>checkMPRightFoot</value>
+  </data>
+  <data name="checkMPLegL1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkMPLegR1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="checkMPRightFoot.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="checkMPLeftFoot.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="comboBoxStar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 21</value>
+  </data>
+  <data name="lbStarAddresses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="&gt;&gt;btnSmoke.Parent" xml:space="preserve">
+    <value>groupMain</value>
+  </data>
+  <data name="&gt;&gt;groupBlackTextures.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureMP.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="&gt;&gt;comboBlackOutput.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureMP.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="checkMPLegL1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="&gt;&gt;lbStarAddresses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupMP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 476</value>
+  </data>
+  <data name="&gt;&gt;checkMPHead.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="&gt;&gt;checkMPRightFoot.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveBubbles.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkNoHeadRotations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="comboBlackOutput.Items" xml:space="preserve">
+    <value>1. Solid RGBA texture without fog (FC 12 7E 24 FF FF F9 FC)</value>
+  </data>
+  <data name="checkNoHeadRotations.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkNoHeadRotations.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnBlackBars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 49</value>
+  </data>
+  <data name="btnRemoveSparkles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegL1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBlackInput.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkMPArmR2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="comboBlackOutput.Items1" xml:space="preserve">
+    <value>2. [Default] Alpha RGBA texture without fog (FC 12 18 24 FF 33 FF FF)</value>
+  </data>
+  <data name="&gt;&gt;btnFixBlackTextures.Parent" xml:space="preserve">
+    <value>groupBlackTextures</value>
+  </data>
+  <data name="&gt;&gt;groupMPHideAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureMP.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="checkMPArmR1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="&gt;&gt;checkNoHeadRotations.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkMPTorso.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPArmR2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="checkMPArmR2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkMPLeftHand.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkNoHeadRotations.Name" xml:space="preserve">
+    <value>checkNoHeadRotations</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegL1.Name" xml:space="preserve">
+    <value>checkMPLegL1</value>
+  </data>
+  <data name="&gt;&gt;groupMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveDust.Name" xml:space="preserve">
+    <value>btnRemoveDust</value>
+  </data>
+  <data name="&gt;&gt;checkMPHead.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmR2.Name" xml:space="preserve">
+    <value>checkMPArmR2</value>
+  </data>
+  <data name="&gt;&gt;checkMPLeftHand.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupMPHideAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 306</value>
+  </data>
+  <data name="&gt;&gt;groupBlackTextures.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBlackInput.Items2" xml:space="preserve">
+    <value>3. [Default] Solid RGBA texture with fog (FC 12 7F FF FF FF F8 38)</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmL2.Name" xml:space="preserve">
+    <value>checkMPArmL2</value>
+  </data>
+  <data name="checkMPCore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 194</value>
+  </data>
+  <data name="&gt;&gt;btnAppearCollected.Parent" xml:space="preserve">
+    <value>groupStarsAppearance</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="btnBlackBars.Text" xml:space="preserve">
+    <value>No Black Bars (WIP)</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveBubbles.Name" xml:space="preserve">
+    <value>btnRemoveBubbles</value>
+  </data>
+  <data name="comboBlackOutput.Items3" xml:space="preserve">
+    <value>4. Alpha RGBA texture with fog (FC FF FF FF FF FC F2 38)</value>
+  </data>
+  <data name="&gt;&gt;btnAppearUncollected.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStar.Parent" xml:space="preserve">
+    <value>groupStarsAppearance</value>
+  </data>
+  <data name="checkMPArmR1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkMPRightHand.Name" xml:space="preserve">
+    <value>checkMPRightHand</value>
+  </data>
+  <data name="btnRemoveSplashes.Text" xml:space="preserve">
+    <value>Water Splashes</value>
+  </data>
+  <data name="checkMPLegR1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 217</value>
+  </data>
+  <data name="&gt;&gt;comboBlackInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>339, 335</value>
+  </data>
+  <data name="&gt;&gt;checkNoHeadRotations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPArmR2.Text" xml:space="preserve">
+    <value>Arm R2</value>
+  </data>
+  <data name="btnSmoke.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pictureMP.Name" xml:space="preserve">
+    <value>pictureMP</value>
+  </data>
+  <data name="btnRemoveWaterEffects.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkMPTorso.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 160</value>
+  </data>
+  <data name="btnComboStarReload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 95</value>
+  </data>
+  <data name="&gt;&gt;checkNoShadowSimple.Parent" xml:space="preserve">
+    <value>groupMain</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmR1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkMPLeftHand.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupStarsAppearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 343</value>
+  </data>
+  <data name="checkMPArmR1.Text" xml:space="preserve">
+    <value>Arm R1</value>
+  </data>
+  <data name="&gt;&gt;btnAppearCollected.Name" xml:space="preserve">
+    <value>btnAppearCollected</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmL1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="checkMPRightHand.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="groupMP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 342</value>
+  </data>
+  <data name="checkMPLegR2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBlackOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 21</value>
+  </data>
+  <data name="&gt;&gt;btnFixCam.Name" xml:space="preserve">
+    <value>btnFixCam</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSplashes.Parent" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
+  </data>
+  <data name="&gt;&gt;groupMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveWaterEffects.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkMPRightFoot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnAdvShRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="&gt;&gt;btnFixBlackTextures.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkNoHeadRotations.Text" xml:space="preserve">
+    <value>No Head Rotations</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStar.Name" xml:space="preserve">
+    <value>comboBoxStar</value>
+  </data>
+  <data name="checkMPRightHand.Text" xml:space="preserve">
+    <value>Hand R</value>
+  </data>
+  <data name="&gt;&gt;comboBlackOutput.Name" xml:space="preserve">
+    <value>comboBlackOutput</value>
+  </data>
+  <data name="btnFixBlackTextures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 23</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmR1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="groupBlackTextures.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupAdvancedTexture.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkMPLeftHand.Text" xml:space="preserve">
+    <value>Hand L</value>
+  </data>
+  <data name="&gt;&gt;checkMPCore.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;checkMPLeftFoot.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupMPHideAll.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnAdvShRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="&gt;&gt;checkNoShadowSimple.Name" xml:space="preserve">
+    <value>checkNoShadowSimple</value>
+  </data>
+  <data name="&gt;&gt;groupStarsAppearance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnComboStarReload.Name" xml:space="preserve">
+    <value>btnComboStarReload</value>
+  </data>
+  <data name="checkMPLegR1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkNoShadowSimple.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnAppearUncollected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 19</value>
+  </data>
+  <data name="btnRemoveBubbles.Text" xml:space="preserve">
+    <value>Bubbles</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegR1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPArmL1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="checkMPLegL1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 217</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSparkles.Name" xml:space="preserve">
+    <value>btnRemoveSparkles</value>
+  </data>
+  <data name="pictureMP.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupStarsAppearance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnRemoveSplashes.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;checkMPTorso.Name" xml:space="preserve">
+    <value>checkMPTorso</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveWaterEffects.Name" xml:space="preserve">
+    <value>btnRemoveWaterEffects</value>
+  </data>
+  <data name="&gt;&gt;checkMPRightHand.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnRemoveSparkles.Text" xml:space="preserve">
+    <value>Sparkles</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmR2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupAdvancedTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupMPShowAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="checkMPLeftFoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 263</value>
+  </data>
+  <data name="&gt;&gt;btnSmoke.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegR1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkMPLeftHand.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;comboBlackInput.Name" xml:space="preserve">
+    <value>comboBlackInput</value>
+  </data>
+  <data name="checkMPArmR2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;checkMPRightFoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSplashes.Name" xml:space="preserve">
+    <value>btnRemoveSplashes</value>
+  </data>
+  <data name="&gt;&gt;btnBlackBars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegL1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkMPArmR2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="checkMPCore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupAdvancedTexture.Text" xml:space="preserve">
+    <value>Advanced Texture Remover</value>
+  </data>
+  <data name="&gt;&gt;btnAppearUncollected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnComboStarReload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPArmL2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnRemoveDust.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 19</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegL2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPRightFoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 17</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegR2.Name" xml:space="preserve">
+    <value>checkMPLegR2</value>
+  </data>
+  <data name="checkMPLegL1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnFixBlackTextures.Text" xml:space="preserve">
+    <value>Fix Black Textures</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveDust.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkMPRightHand.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="&gt;&gt;checkMPRightHand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdvShRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBlackOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 47</value>
+  </data>
+  <data name="groupMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 27</value>
+  </data>
+  <data name="checkNoShadowSimple.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 53</value>
+  </data>
+  <data name="&gt;&gt;checkNoShadowSimple.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAppearCollected.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkMPArmR1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 148</value>
+  </data>
+  <data name="btnRemoveWaterEffects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="btnFixCam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>355, 374</value>
+  </data>
+  <data name="groupStarsAppearance.Text" xml:space="preserve">
+    <value>Stars' Appearance (pause game before using)</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmR2.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="btnAdvShRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkMPRightHand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 194</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveWaterEffects.Parent" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
+  </data>
+  <data name="&gt;&gt;groupMPShowAll.Name" xml:space="preserve">
+    <value>groupMPShowAll</value>
+  </data>
+  <data name="comboBlackOutput.Items2" xml:space="preserve">
+    <value>3. Solid RGBA texture with fog (FC 12 7F FF FF FF F8 38)</value>
+  </data>
+  <data name="&gt;&gt;groupMain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="btnFixCam.Text" xml:space="preserve">
+    <value>Fix Cam Freeze</value>
+  </data>
+  <data name="&gt;&gt;lbStarAddresses.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBoxStar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="checkMPLegR1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="checkMPRightFoot.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="checkMPRightFoot.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;checkMPRightFoot.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkMPLeftFoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="&gt;&gt;checkMPHead.Name" xml:space="preserve">
+    <value>checkMPHead</value>
+  </data>
+  <data name="btnRemoveWaterEffects.Text" xml:space="preserve">
+    <value>Water Effects</value>
+  </data>
+  <data name="btnRemoveDust.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 23</value>
+  </data>
+  <data name="&gt;&gt;checkMPLeftHand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPArmR1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="groupMain.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="checkNoShadowSimple.Text" xml:space="preserve">
+    <value>No Shadow (Simple)</value>
+  </data>
+  <data name="btnRemoveSplashes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 23</value>
+  </data>
+  <data name="btnFixBlackTextures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 75</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmL2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkMPLeftFoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPTorso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="pictureMP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 280</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;btnFixCam.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBlackInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="btnSmoke.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 78</value>
+  </data>
+  <data name="checkMPHead.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;groupMP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupStarsAppearance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 127</value>
+  </data>
+  <data name="&gt;&gt;checkMPTorso.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="checkMPTorso.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnBlackBars.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkMPRightFoot.Text" xml:space="preserve">
+    <value>Foot R</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkMPCore.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="&gt;&gt;btnAppearUncollected.Parent" xml:space="preserve">
+    <value>groupStarsAppearance</value>
+  </data>
+  <data name="checkNoShadowSimple.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkMPLegL2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;checkMPLeftHand.Name" xml:space="preserve">
+    <value>checkMPLeftHand</value>
+  </data>
+  <data name="&gt;&gt;lbStarAddresses.Parent" xml:space="preserve">
+    <value>groupStarsAppearance</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegR2.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="groupMP.Text" xml:space="preserve">
+    <value>Show/Hide Body Parts (WIP)</value>
+  </data>
+  <data name="btnComboStarReload.Text" xml:space="preserve">
+    <value>Reload List</value>
+  </data>
+  <data name="btnAppearCollected.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegR2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnComboStarReload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 23</value>
+  </data>
+  <data name="comboBlackInput.Items1" xml:space="preserve">
+    <value>2. Alpha RGBA texture without fog (FC 12 18 24 FF 33 FF FF)</value>
+  </data>
+  <data name="groupAdvancedTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 81</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmL2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkMPRightHand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>mainForm</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegR1.Name" xml:space="preserve">
+    <value>checkMPLegR1</value>
+  </data>
+  <data name="&gt;&gt;btnFixBlackTextures.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnRemoveWaterEffects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 48</value>
+  </data>
+  <data name="checkMPLegL1.Text" xml:space="preserve">
+    <value>Leg L1</value>
+  </data>
+  <data name="comboBoxStar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 96</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 24</value>
+  </data>
+  <data name="checkMPCore.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;comboBlackOutput.Parent" xml:space="preserve">
+    <value>groupBlackTextures</value>
+  </data>
+  <data name="&gt;&gt;checkNoHeadRotations.Parent" xml:space="preserve">
+    <value>groupMain</value>
+  </data>
+  <data name="btnBlackBars.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmR2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnComboStarReload.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveDust.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkMPCore.Text" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="&gt;&gt;groupMP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkMPHead.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkMPLegL2.Text" xml:space="preserve">
+    <value>Leg L2</value>
+  </data>
+  <data name="&gt;&gt;checkMPTorso.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAQEAAAAEAIAAoQgAAZgAAAEBAAAABAAgAKBYAAI5CAAAgIAAAAQAgAKgQAAC2WAAAICAAAAEA
+        CACoCAAAXmkAABAQAAABACAAaAQAAAZyAAAQEAAAAQAIAGgFAABudgAAKAAAAEAAAACAAAAAAQAgAAAA
+        AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAACAAAABQAAAAgAAAAMAAAAEwAAABQAAAAUAAAAFAAAABQAAAATAAAADAAAAAgAAAAFAAAAAgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAACAAAABgAAAA4AAAAbAAAAKQAAADMXFxdCYmJidHt7eZmGhoa0iYmJv4mJib+Ghoa0e3t5mWNj
+        Y3MXFxdCAAAAMwAAACkAAAAeAAAADgAAAAYAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAQAAAAQAAAAJAAAADVvbW17mJiX5pycnP+cnJz/nJyc/5ycnP+cnJz/nJyc/5yc
+        nP+cnJz/nJyc/5ycnP+cnJz/nJyc/5ycnP+cnJz/m5ua4nFxcYIAAAA1AAAAJAAAABAAAAAEAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABUAAAAvb29ve5+env6fn5//n5+f/5+fn/+fn5//n5+f/5+f
+        n/+fn5//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/6Cf
+        n/1zc3GAAAAALwAAABUAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAFAAAAC+Pjo6zo6Oj/6Ojo/+jo6P/o6Oj/6Oj
+        o/+jo6P/o6Oj/6Oel/+jhl3/o3Mw/6NkDv+iXgD/ol4A/6JeAP+iXgD/o2QO/6NzMP+jhFn/o52T/6Oj
+        o/+jo6P/o6Oj/6Ojo/+jo6P/o6Oj/6Ojo/+Pj46zAAAALwAAABUAAAAEAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAMAAAAKYyMjJympqb/pqam/6am
+        pv+mpqb/pqam/6ampf+mfkf/pWAA/6VgAP+lYAD/pWAA/6VgAP+lYAD/pWAA/6VgAP+lYAD/pWAA/6Vg
+        AP+lYAD/pWAA/6VgAP+lYAD/pWAA/6Z+Rv+mpqX/pqam/6ampv+mpqb/pqam/6ampv+Li4udAAAAKgAA
+        AAwAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAZOTk5S6mp
+        qf+pqan/qamp/6mpqf+pqan/qZNz/6liAP+pYgD/qWIA/6liAP+pYgD/qWIA/6liAP+pYgD/qWIA/6li
+        AP+pYgD/qWIA/6liAP+pYgD/qWIA/6liAP+pYgD/qWIA/6liAP+pYgD/qWIA/6liAP+pkXD/qamp/6mp
+        qf+pqan/qamp/6mpqf9BQUFOAAAAGQAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAUAAAAloJ6etKysrP+srKz/rKys/6ysrP+skGn/rGQA/6xkAP+sZAD/rGQA/6xkAP+sZAD/rGQA/6xk
+        AP+sZAD/rGQA/6xkAP+sZAD/rGQA/6xkAP+sZAD/rGQA/6xkAP+sZAD/rGQA/6xkAP+sZAD/rGQA/6xk
+        AP+sZAD/rGQA/6xkAP+skGj/rKys/6ysrP+srKz/rKys/5+fnrYAAAAlAAAABQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAoAAAAqr6+v9bCwsP+wsLD/sLCw/7Cpn/+vZgD/r2YA/69mAP+vZgD/r2YA/69m
+        AP+vZgD/r2YA/69mAP+vZgD/r2YA/69mAP+vZgD/r2YA/69mAP+vZgD/r2YA/69mAP+vZgD/r2YA/69m
+        AP+vZgD/r2YA/69mAP+vZgD/r2YA/69mAP+vZgD/r2YA/69mAP+wqZ//sLCw/7CwsP+wsLD/sLCv9AAA
+        ACoAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoKCgozs7Oz/7Ozs/+zs7P/s7Oz/6N4Ov+nYQD/smgA/7No
+        AP+zaAD/s2gA/7NoAP+zaAD/s2gA/7NoAP+zaAD/s2gA/7NoAP+zaAD/s2gA/7NoAP+zaAD/s2gA/7No
+        AP+zaAD/s2gA/7NoAP+zaAD/s2gA/7NoAP+zaAD/s2gA/7NoAP+zaAD/s2gA/7NoAP+zaAD/s2gA/7N/
+        OP+zs7P/s7Oz/7Ozs/+zs7P/CgoKMgAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoXFxc2tra2/7a2tv+2trb/tra2/5VY
+        BP+0mnX/mGQb/6liAP+2agD/tmoA/7ZqAP+2agD/tmoA/7ZqAP+2agD/tmoA/7ZqAP+2agD/tmoA/7Zq
+        AP+2agD/tmoA/7ZqAP+2agD/tmoA/7ZqAP+2agD/tmoA/7ZqAP+2agD/tmoA/7ZqAP+2agD/tmoA/7Zq
+        AP+2agD/tmoA/7ZqAP+2agD/tmsE/7a2tv+2trb/tra2/7a2tv8XFxc2AAAACgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYLCwsuurq6/7q6
+        uv+6urr/ubax/5ZXAP+5ubj/urq6/7q6uv+aaST/qmIA/7hsAP+5bAD/uWwA/7lsAP+5bAD/uWwA/7ls
+        AP+5bAD/uWwA/7lsAP+5bAD/uWwA/7lsAP+5bAD/uWwA/7lsAP+5bAD/uWwA/7lsAP+5bAD/uWwA/7ls
+        AP+5bAD/uWwA/7lsAP+5bAD/uWwA/7lsAP+5bAD/uWwA/7dqAP+2agD/uray/7q6uv+6urr/urq6/wsL
+        CywAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAMAAAAkvb29/729vf+9vb3/vLev/5lZAP+9vLz/vb29/729vf+9vb3/vb29/6dxJv+rZAD/u24A/7xu
+        AP+8bgD/vG4A/7xuAP+8bgD/vG4A/7xuAP+8bgD/vG4A/7xuAP+8bgD/vG4A/7xuAP+8bgD/vG4A/7xu
+        AP+8bgD/vG4A/7xuAP+8bgD/vG4A/7xuAP+8bgD/vG4A/7xuAP+8bgD/u20A/69mAP+aWgD/l1gA/69m
+        AP+9uLD/vb29/729vf+9vb3/AAAAJAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAZwMC/7cDAwP/AwMD/wL26/5xaAP/Av7//wMDA/8DAwP/AwMD/wMDA/8DA
+        wP/AwMD/qXQn/65lAP++bwD/wHAA/8BwAP/AcAD/wHAA/8BwAP/AcAD/wHAA/8BwAP/AcAD/wHAA/8Bw
+        AP/AcAD/wHAA/8BwAP/AcAD/wHAA/8BwAP/AcAD/wHAA/8BwAP/AcAD/wHAA/8BwAP/AcAD/vG4A/6dh
+        AP+jbSH/wcHB/8DAwP+oYwP/vm8A/8C+uv/AwMD/wMDA/8HAwOwAAAAZAAAAAQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrKysocPDw//Dw8P/w8PD/55cAP/Dw8L/w8PD/8PD
+        w//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw/+sdSj/r2YA/8JxAP/DcQD/w3EA/8NxAP/DcQD/w3EA/8Nx
+        AP/DcQD/w3EA/8NxAP/DcQD/w3EA/8NxAP/DcQD/w3EA/8NxAP/DcQD/w3EA/8NxAP/DcQD/w3EA/8Nx
+        AP/DcQD/vG0A/6NfAP/KsY//w8PD/8PDw//Dw8P/xcXE/8JxAP/DcQD/w8PD/8PDw//Dw8P/q6urnwAA
+        AAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEMTExNMfHx//Hx8f/x8fH/7Js
+        CP/Gxsb/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/7V7Kv+xZwD/xHIA/8Zz
+        AP/GcwD/xnMA/8ZzAP/GcwD/xnMA/8ZzAP/GcwD/xnMA/8ZzAP/GcwD/xnMA/8ZzAP/GcwD/xnMA/8Zz
+        AP/GcwD/xnMA/8ZzAP/FcwD/u20A/6BdAP/Kx8L/x8fH/8fHx//Hx8f/x8fH/8ysgf/GcwD/xnMA/8Z3
+        Cf/Hx8f/x8fH/8fHx/8xMTE0AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFMrK
+        yf7Kysr/ysrK/8qZVP/GeAr/ysrK/8rKyv/Kysr/ysrK/8rKyv/Kysr/ysrK/8rKyv/Kysr/ysrK/8rK
+        yv/Kysr/vYAr/7NoAP/HdAD/yXUA/8l1AP/JdQD/yXUA/8l1AP/JdQD/yXUA/8l1AP/JdQD/yXUA/8l1
+        AP/JdQD/yXUA/8l1AP/JdQD/yXUA/8l1AP/IdQD/u20A/6pjAf/Ly8v/ysrK/8rKyv/Kysr/ysrK/8rK
+        yv/HdAD/yXUA/8l1AP/JdQD/yppW/8rKyv/Kysr/ysrJ/QAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAABp+fnXvNzc3/zc3N/83Kxf/NdwD/zXcA/8y9qf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83N
+        zf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Bgyz/tmoA/8t2AP/NdwD/zXcA/813AP/NdwD/zXcA/813
+        AP/NdwD/zXcA/813AP/NdwD/zXcA/813AP/NdwD/zXcA/813AP/LdgD/vG0A/69uE//Nzc3/zc3N/83N
+        zf/Nzc3/zc3N/83Nzf/NhiL/zXcA/813AP/NdwD/zXcA/813AP/NysX/zc3N/83Nzf+goJ55AAAABgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABfQ0ND/0NDQ/9DQ0P/QfAX/0HkA/9B5AP/QeQD/z7+p/9DQ
+        0P/Q0ND/0NDQ/9DQ0P/Q0ND/0NDQ/9DQ0P/Q0ND/0NDQ/9DQ0P/Q0ND/0NDQ/8SFLv+5bAD/zngA/9B5
+        AP/QeQD/0HkA/9B5AP/QeQD/0HkA/9B5AP/QeQD/0HkA/9B5AP/QeQD/0HkA/9B5AP/OeAD/uWwA/7yB
+        L//Q0ND/0NDQ/9DQ0P/Q0ND/0NDQ/9DQ0P/Vr3r/0HkA/9B5AP/QeQD/0HkA/9B5AP/QeQD/0HwG/9DQ
+        0P/Q0ND/0NDQ/wAAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASxr6+B1NTU/9TU1P/Uwab/03sA/9N7
+        AP/TewD/03sA/9N7AP/Tw63/1NTU/9TU1P/U1NT/1NTU/9TU1P/U1NT/1NTU/9TU1P/U1NT/1NTU/9TU
+        1P/U1NT/x4gw/7xtAP/SewD/03sA/9N7AP/TewD/03sA/9N7AP/TewD/03sA/9N7AP/TewD/03sA/9N7
+        AP/RegD/vG0A/8ybVv/U1NT/1NTU/9TU1P/U1NT/1NTU/9TU1P/Xybb/03sA/9N7AP/TewD/03sA/9N7
+        AP/TewD/03sA/9N7AP/Uwaf/1NTU/9TU1P+wrq5/AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAQ19fX/9fX
+        1//X19f/130A/9d9AP/XfQD/130A/9d9AP/XfQD/130A/9bGr//X19f/19fX/9fX1//X19f/19fX/9fX
+        1//X19f/19fX/9fX1//X19f/19fX/9fX1//LizL/yHQA/9d9AP/XfQD/130A/9d9AP/XfQD/130A/9d9
+        AP/XfQD/130A/9d9AP/SegD/t2oA/9CwhP/X19f/19fX/9fX1//X19f/19fX/9fX1//Z2Nb/1n0A/9d9
+        AP/XfQD/130A/9d9AP/XfQD/130A/9d9AP/XfQD/130A/9fX1//X19f/19fX/wAAABAAAAAAAAAAAAAA
+        AAAAAAABc3NzPtra2v/a2tr/2s68/9p/AP/afwD/2n8A/9p/AP/afwD/2n8A/9p/AP/afwD/2cix/9ra
+        2v/a2tr/2tra/9ra2v/a2tr/2tra/9ra2v/a2tr/2tra/9ra2v/a2tr/2tra/8x3Af/afwD/2n8A/9p/
+        AP/afwD/2n8A/9p/AP/afwD/2n8A/9p/AP/WfAD/uWwA/97GpP/a2tr/2tra/9ra2v/a2tr/2tra/9ra
+        2v/b29v/2X8A/9p/AP/afwD/2n8A/9p/AP/afwD/2n8A/9p/AP/afwD/2n8A/9p/AP/azr3/2tra/9ra
+        2v9ycnI8AAAAAQAAAAAAAAAAAAAABdnX197d3d3/3d3d/92JFP/dgQD/3YEA/92BAP/dgQD/3YEA/92B
+        AP/dgQD/3YEA/92BAP/cy7P/3d3d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/93d
+        3f/afwD/3YEA/92BAP/dgQD/3YEA/92BAP/dgQD/3YEA/92BAP/XfQD/u20A/+DQuv/d3d3/3d3d/93d
+        3f/d3d3/3d3d/93d3f/d3d3/2n8A/92BAP/dgQD/3YEA/92BAP/dgQD/3YEA/92BAP/dgQD/3YEA/92B
+        AP/dgQD/3YkV/93d3f/d3d3/19fW3QAAAAUAAAAAAAAAAAAAABDh4eH/4eHh/+Hh4f/ggwD/4IMA/+CD
+        AP/ggwD/4IMA/+CDAP/ggwD/4IMA/+CDAP/ggwD/4IMA/+DOtv/h4eH/4eHh/+Hh4f/h4eH/4eHh/+Hh
+        4f/h4eH/4eHh/+Hh4f/ZlDH/3oEA/+CDAP/ggwD/4IMA/+CDAP/ggwD/4IMA/+CDAP/XfQD/tmoA/+Pc
+        0v/h4eH/4eHh/+Hh4f/h4eH/4eHh/+Hh4f/h4eH/34YK/+CDAP/ggwD/4IMA/+CDAP/ggwD/4IMA/+CD
+        AP/ggwD/4IMA/+CDAP/ggwD/4IMA/+CDAP/h4eH/4eHh/+Hh4f8AAAAQAAAAAAAAAABtbW0x5OTk/+Tk
+        5P/kx5//5IUA/+SFAP/khQD/5IUA/+SFAP/khQD/5IUA/+SFAP/khQD/5IUA/+SFAP/khQD/49C2/+Tk
+        5P/k5OT/5OTk/+Tk5P/k5OT/5OTk/+Tk5P/k5OT/17F+/8t2AP/igwD/5IUA/+SFAP/khQD/5IUA/+SF
+        AP/bfwD/uWwA/+bk4f/k5OT/5OTk/+Tk5P/k5OT/5OTk/+Tk5P/k5OT/5JEd/+SFAP/khQD/5IUA/+SF
+        AP/khQD/5IUA/+SFAP/khQD/5IUA/+SFAP/khQD/5IUA/+SFAP/khQD/5Mih/+Tk5P/k5OT/ampqMAAA
+        AAAAAAAC0tLSpefn5//n5+f/55Me/+eHAP/nhwD/54cA/+eHAP/nhwD/54cA/+eHAP/nhwD/54cA/+eH
+        AP/nhwD/54cA/+eHAP/n07j/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//auIn/zngA/+WF
+        AP/nhwD/54cA/+eHAP/egQD/vG0A/+jo5//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/5pox/+eH
+        AP/nhwD/54cA/+eHAP/nhwD/54cA/+eHAP/nhwD/54cA/+eHAP/nhwD/54cA/+eHAP/nhwD/54cA/+eU
+        IP/n5+f/5+fn/9PR0aQAAAACAAAABerp6f3q6ur/6urq/+qIAP/qiAD/6ogA/+qIAP/qiAD/6ogA/+qI
+        AP/qiAD/6ogA/+qIAP/qiAD/6ogA/+qIAP/qiAD/6ogA/+rWuv/q6ur/6urq/+rq6v/qzaT/6urq/+rq
+        6v/q6ur/6urq/9y+k//MdwD/5oYA/+mIAP/cgAD/vG4A/+vr6//q6ur/6urq/+rq6v/q6ur/6urq/+rq
+        6v/q6ur/66ZH/+qIAP/qiAD/6ogA/+qIAP/qiAD/6ogA/+qIAP/qiAD/6ogA/+qIAP/qiAD/6ogA/+qI
+        AP/qiAD/6ogA/+qIAP/qiAD/6urq/+rq6v/q6en9AAAABQAAAAju7u7/7u7u/+7u7v/uigD/7ooA/+6K
+        AP/uigD/7ooA/+6KAP/uigD/7ooA/+6KAP/uigD/7ooA/+6KAP/uigD/7ooA/+6KAP/uigD/7dm8/+7u
+        7v/snjL/7ooA/+zIlv/u7u7/7u7u/+7u7v/u7u7/5sie/8l1AP/YfgD/yHUB/+7u7v/u7u7/7u7u/+7u
+        7v/u7u7/7u7u/+7u7v/u7u7/77Zo/+6KAP/uigD/7ooA/+6KAP/uigD/7ooA/+6KAP/uigD/7ooA/+6K
+        AP/uigD/7ooA/+6KAP/uigD/7ooA/+6KAP/uigD/7ooA/+7u7v/u7u7/7u7u/wAAAAgAAAAP8fHx//Hx
+        8f/x6Nv/8YwA//GMAP/xjAD/8YwA//GMAP/xjAD/8YwA//GMAP/xjAD/8YwA//GMAP/xjAD/8YwA//GM
+        AP/xjAD/8YwA//GMAP/xjAD/8YwA//GMAP/xjAD/8MiQ//Hx8f/x8fH/8fHx//Hx8f/pzab/rmoK//Hx
+        8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8saJ//GMAP/xjAD/8YwA//GMAP/xjAD/8YwA//GM
+        AP/xjAD/8YwA//GMAP/xjAD/8YwA//GMAP/xjAD/8YwA//GMAP/xjAD/8YwA//GMAP/x6d3/8fHx//Hx
+        8f8AAAAPAAAAEvT09P/09PT/9NGf//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//KN
+        AP/piAD/54cA//CMAP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/zxoj/9PT0//T0
+        9P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9PT0//T09P/09PT/9dKi//SOAP/0jgD/9I4A//SO
+        AP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//SOAP/0jgD/9I4A//SO
+        AP/0jgD/9NGh//T09P/09PT/AAAAEp2dnSr39/f/9/f3//fBdf/3kAD/95AA//eQAP/3kAD/95AA//eQ
+        AP/3kAD/95AA//KNAP/TewD/wHAA/817CP/LdwD/7YoA//eQAP/3kAD/95AA//eQAP/3kAD/95AA//eQ
+        AP/3kAD/95AA//XEf//39/f/9/f3//f39//39/f/9/f3//f39//39/f/9/f3//f39//39/f/+Ny0//eQ
+        AP/3kAD/95AA//eQAP/3kAD/95AA//eQAP/3kAD/95AA//eQAP/3kAD/95AA//eQAP/3kAD/95AA//eQ
+        AP/3kAD/95AA//eQAP/3kAD/95AA//fBdv/39/f/9/f3/5mZmSjNzc1D+/v7//v7+//7tlf/+5IA//uS
+        AP/7kgD/+5IA//uSAP/7kgD/+5IA//WPAP/VfAD/+9+5//v7+//7+/v/+/n2/8x3AP/wjAD/+5IA//uS
+        AP/7kgD/+5IA//uSAP/7kgD/+5IA//iRAP/fggD/6cWT//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7
+        +//7+/v/++XE//uSAP/7kgD/+5IA//uSAP/7kgD/+5IA//uSAP/7kgD/+5IA//uSAP/7kgD/+5IA//uS
+        AP/7kgD/+5IA//uSAP/7kgD/+5IA//uSAP/7kgD/+5IA//uSAP/7t1f/+/v7//v7+//MzMxC29vbT/7+
+        /v/+/v7//rRL//6UAP/+lAD//pQA//6UAP/+lAD//pQA//iRAP/XfQD//uK8//7+/v/+/v7//v7+//7+
+        /v/+/fv/zngA//OOAP/+lAD//pQA//6UAP/+lAD//pQA//uSAP/ihAD/8KhE//7+/v/+/v7//v7+//7+
+        /v/+/v7//v7+//7+/v/+/v7//evT//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//rRM//7+
+        /v/+/v7/29vbTtTU1Ej///////////63U//+lAD//pQA//6UAP/+lAD//pQA//iRAP/XfQD//+O8////
+        ///////////////////////////////9+//OeAD/844A//6UAP/+lAD//pQA//uSAP/ihAD/8K9U////
+        ///////////////////////////////////////////+/9d9AP/4kQD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//63VP///////////9TU1Ei/v784///////////+wGj//pQA//6UAP/+lAD//pQA//iR
+        AP/XfQD//+S9//////////////////////////////////////////////37/854AP/zjgD//pQA//uS
+        AP/ihAD/8Ldm////////////////////////////////////////////////////////7NP/130A//iR
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+wGn///////////++vr43T09PEP///////////tCP//6U
+        AP/+lAD//pQA//iRAP/XfQD//+O9////////////////////////////////////////////////////
+        /////vz/zngA//KNAP/hgwD/8Lpv////////////////////////////////////////////////////
+        ///////////////v2f/XfQD/+JEA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//tGR////////////Pz8/EAAA
+        AAf////////////qzf/+lAD//pQA//mRAP/XfQD//+S+////////////////////////////////////
+        ///////////////////////////////+/P/HdAD/8L56////////////////////////////////////
+        //////////z4//yzTP////////////////////////Lg/9d9AP/4kQD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA///r
+        z////////////wAAAAcAAAAE/////////////////pQA//6UAP/mhgD//+XB////////////////////
+        //////////////////////////////////////////////////////////79////////////////////
+        //////////////////////////36//2TAP/+lAD//bFG////////////////////////8+T/130A//iR
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP////////////////8AAAAEAAAAAv////////////////6UAP/+lAD/8p4p////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////78//2TAP/+lAD//pQA//6UAP/9rkD/////////
+        ///////////////26f/XfQD/+JEA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD/////////////////AAAAAgAAAAD7+/vK////////
+        ///+lAH//pQA//a+bv//////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////78//2TAP/+lAD//pQA//6U
+        AP/+lAD//pQA//2rOf////////////////////////ju/9Z9AP/3kAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pUC////////////+/v7yAAA
+        AAAAAAAA8O3tVf///////////sZ3//6UAP/6kgD/////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////78//2T
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//ak1////////////////////////+fL/z3kA//OO
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//7H
+        ef///////////+zs7FMAAAAAAAAAAAAAAAX////////////9+//+lAD//pQA//yVBf//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////79//KNAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/8pi3/////////
+        ///////////////79f/OeAD/844A//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP///fv///////////8AAAAFAAAAAAAAAAAAAAAB/v7+/v///////////pQA//6U
+        AP/+lAD//JUF////////////////////////////////////////////////////////////////////
+        ///////////////////////////////+/f/OeAD/844A//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//ykKf////////////////////////z4/854AP/zjgD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD////////////+/v7+AAAAAQAAAAAAAAAAAAAAAPb2
+        9nT///////////7Nif/+lAD//pQA//6UAP/8lQX/////////////////////////////////////////
+        //////////////////////////////////////////////////////////79/854AP/zjgD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//KIl/////////////////////////fv/zngA//OO
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//s6L////////////9vb2cgAA
+        AAAAAAAAAAAAAAAAAAAAAAAD/////////////////pQA//6UAP/+lAD//pQA//yVBf//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////v3/zngA//OOAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/8oCD/////////
+        ///////////////+/P/OeAD/8Y0A//WPAP/7kgD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA////
+        /////////////wAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAPz8/Mz///////////67Xv/+lAD//pQA//6U
+        AP/+lAD//JUF////////////////////////////////////////////////////////////////////
+        ///////////////////////////////+/f/OeAD/844A//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//yeG/////////////////////////79/8VzAP/FcwD/2n8A//yTAP/+lAD//pQA//6U
+        AP/+lAD//pQA//68X/////////////z8/MoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtbW0H////////
+        /////////pQA//6UAP/+lAD//pQA//6UAP/7lAX/////////////////////////////////////////
+        //////////////////////////////////////////////////////////79/854AP/zjgD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//JwX///////////////////////////////////r
+        0P/zjgD//pQA//6UAP/+lAD//pQA//6UAP////////////////9/f38GAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPz8/NP///////////7SlP/+lAD//pQA//6UAP/+lAD/7IoA//HHjf//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////v3/0nsA//uSAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/8mhL/////////
+        ////////////////////////4YMA//2TAP/+lAD//pQA//6UAP/+05b////////////8/PzSAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/////////////////5gH//+VAP//lQD/+5MA/9+E
+        Bf//////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////15//4kQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//pQA/+6RDv///////////////////////////+qpT//7kwD//5UA//+VAP//mAf/////////
+        ////////AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPr6+nj////////////+
+        /f//lQD//5UA//CMAP///Pf/////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////+5IA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP/6lgr//////////////////////////////Pf/8o0A//+V
+        AP//lQD///7+////////////+vj4dgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/v799////////////+fG//+VAP/uiwD/////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////+TA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//pQA///68v//////////////
+        /////////////+OEAP/+lAD//+jH/////////////v799wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAH9/fwL/////////////////yHr/+JEA////////////////////
+        ////5cD//ZUD////////////////////////////////////////////////////////////////////
+        //////////Lh//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//6qNf//8Nv////////////4v23//8h8/////////////////39/fwIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8/PzLf////////////////+5
+        V//+v2X////////47v/+mg7//5UA//+VAP/9lQP/////////////////////////////////////////
+        //////////////////////////Lg//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP/+mQr//rlY//////////////////Pz
+        8ywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD8+vpm/////////////////71g//+VAP//lQD//5UA//+VAP//lQD//5UA//2VA///////////////
+        //////////////////////////////////////////Lh//+VAP//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//7xf////
+        //////////////z6+mgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPv7+4j/////////////////1Jf//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//ZUC//////////////////////////////////////////////Lf//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//9OW//////////////////v7+4kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/Pz8fP/////////////////0
+        5f//lQD//5UA//+VAP//lQD//5UA//+VAP/9lAH///////////////////////////////////Lf//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD///Ph//////////////////z8/H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD4+PhO//////////////////////+pL///lQD//5UA//+VAP//lQD//5UA//2UAv//////////////
+        //////////Lf//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//pyr///////////////////////j4+E8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHx8RP///////////////////////Lh//+VAf//lQD//5UA//+V
+        AP//lQD//pUC/////v///////+jJ//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAf//8+L///////////////////////Dw
+        8BIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP39/dj/////////////
+        /////////+fE//+WAv//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5YC///nxf//////////////
+        /////////f391wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA+fn5L/////////////////////////////v2//+1Tf//lQD//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//sUT///v2////
+        ////////////////////////+fn5LQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/Pz8bf/////////////////////////////////9
+        +v//zor//6Ec//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//lQD//5UA//+VAP//oRz//86K///9
+        +v/////////////////////////////////8/PxsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+/v4Uv7+
+        /v7/////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////v7+/vz8/FgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////Av39/ZX/////////////////////////////////////////////
+        ///////////////////////////////////////////////////9/f2V////AwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4n/f39h/79
+        /dr///////////////////////////////////////////79/dr9/f2H/v7+JgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////gf////////AAB///////gAAA//////
+        wAAAA/////8AAAAA/////gAAAAB////4AAAAAB////AAAAAAD///4AAAAAAH///AAAAAAAP//4AAAAAA
+        Af//AAAAAAAA//4AAAAAAAB//AAAAAAAAD/8AAAAAAAAP/gAAAAAAAAf+AAAAAAAAB/wAAAAAAAAD+AA
+        AAAAAAAP4AAAAAAAAAfgAAAAAAAAB8AAAAAAAAADwAAAAAAAAAPAAAAAAAAAA4AAAAAAAAABgAAAAAAA
+        AAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAA
+        AAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAcAAAAAAAAADwAAAAAAA
+        AAPAAAAAAAAAA+AAAAAAAAAH4AAAAAAAAAfgAAAAAAAAB/AAAAAAAAAP8AAAAAAAAA/4AAAAAAAAH/wA
+        AAAAAAA//AAAAAAAAD/+AAAAAAAAf/8AAAAAAAD//4AAAAAAAf//gAAAAAAB///gAAAAAAf///AAAAAA
+        D///+AAAAAAf///8AAAAAD////8AAAAA/////8AAAAP/////8AAAD//////8AAA////////AA////ygA
+        AABAAAAAgAAAAAEACAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAACfXQD/oF8F/6dkBf+mYAD/qWIA/65l
+        AP+uaw3/pWwd/6xsE/+pbx3/smcA/7NoAP+2agD/uGsA/7lsAP+9bgD/vXML/7RwEP+wcRn/om0j/6py
+        JP+icjH/ong+/61+Pf+ydyX/tngh/6N6Qf+jfkn/qH1A/8d0AP/BcAD/xnMA/8B0C//KdQD/zXcA/814
+        Af/FexP/yXwQ/9N9BP/QeQD/1HsA/9d9AP/afwD/t4E1/7mCN/+mgU3/rIBC/6ODVv+jhFj/rYxf/7OE
+        RP+zh0n/uIlG/72NSf+qjGL/o49y/6OQdf+8n3f/yYAa/9aBCv/bggT/3YEA/9uFDP/VhRX/24cS/9uI
+        FP/HhSv/yoQi/8GGNf/HijT/14sh/9CLKv/dkCT/2pAq/9aSM//emz//4YQD/+GDAP/lhgD/54gD/+iH
+        AP/vjAD/6ogA/+6KAP/kjRP/65EU/+yWHf/xjAD/9I4A//aQAP/+lgX/+pEA//2TAP/+lAD//poO//6Y
+        Cf/ylhT//pwT//yfHf/jmjT/9p4k//6jI//+pyv//qgu//apPf/7pzH//qkz//6tPP/Aj0r/xZNM/86T
+        QP/KnV7/1p5O/9ubQf/GnGH/yKRy/8mneP/SqXD/0q14/9axf//koEH/56ZK/+eoT//trFH/67Be//ut
+        Qf/+sUT//rRM//OwUv/9tlL//rhV//66XP/ts2L/67Vp/+65b//ruXP/67x7//6+ZP/7v2v//sFt//XD
+        ff/9w3L/+MN5//7Jff+cnJz/ppiF/6Oelv+jn5j/sJyB/7Wnk/+1q53/uqmR/7uunP+mpqb/oaGh/6mn
+        o/+rq6r/s7Gt/72xof+zs7P/urm3/7y8vP/BrZD/zrKM/8KynP/UtYv/2LWF/9+8i//WupP/1r2a/9q+
+        lf/AtKT/wLeq/8O4p//Cuq7/zbui/8K9tf/Av77/5L6K/+C+kP/JwLT/zMW8/9nHrf/twob/4sOX/+fG
+        mf/tyZb/6smb//LDgv/0yY3//8yE//7Oi//zy5T/8c2a//TRn//805r/6s6o/+7Rp//i0bn/9dKh//LV
+        rP/916L//9ql//zbrP/12rX/9d29///fsv//4Lb//+G5/8fFwv/CwsL/x8fH/8/Kwv/NzMv/ysrK/83N
+        zf/Rz83/0NDP/9vQwf/f2M//1NPS/9DQ0P/W1dX/3t3b/9ra2v/e3t7/5dfD/+HZzf/o3c7/4t3Y/+Xi
+        3//u4tH/6+PZ//XhxP/95cL/+ubK//7pzP/969L/4eHh/+bm5v/o5+b/7ujh/+vr6//u7u7/8uvi///z
+        4v//9ur///ju//T08//x8fH/9PT0///79f/6+vr///36//////8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAATA4OJA3kDc4Ny8VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAFZA4kJCQkJCQkJCQkJCQkJCQNxUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACQkJCQmpqampCampqampqampqampqakDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAFZCQkJmamZqTODAaFRMTBxMVGi83k5qZmpqampATAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAkJCamZmZkS0HAwMDAwMEAwMDAwQDAwMHLZGbmZmZmpAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAACQkJqcmZk2CQIEBAQEBAQEBAQEAgMDBAQEBAQCCTabnJycmTcAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJycnDEIBQUEBQUEBQUCBQQEBQUFBQUFBQQFBAUFCDGcnJyc
+        kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaQmZ+flBIFBQUKBQUKBQUKBQUKCgUKBQUKBQUKBQoFBQUK
+        EpSfn52ZFgAAAAAAAAAAAAAAAAAAAAAAAAAAAC+Qn5+cLQMKCwoKCwsLCwoLCwsLCgsLCgoKCwsLCwoL
+        CwsLCgoLM52fn58wAAAAAAAAAAAAAAAAAAAAAAAAAJCQn5+cFTYVAwsMDQwMDAwMDAwMDAwMDAwMDA0M
+        DAwMDAwMDAwMDA0ZlqCfnzAAAAAAAAAAAAAAAAAAAAAAAJCQn6GTE5ahoBoEDQ4ODg4ODg0ODQ4ODg4O
+        Dg4MDg4NDg0ODg4ODg0NDBGXoaCgMAAAAAAAAAAAAAAAAAAAAC+QoaGVB5ahoaGhHAQODw8PDw8PDw8P
+        Dw8PDw8PDw8PDw8PDw8PDw8PBQABBpehoaAWAAAAAAAAAAAAAAAAABWQodKcB56x0tKx0rEuBQ8eHh4P
+        Hh4eHh4eHh4eHh4eHh4eHh4eHh4OBC6ssBgQpLHSoAAAAAAAAAAAAAAAAACQodKgFKvS0tLS0tLS0jIF
+        Hh4fHh8eHh8eHh8eHh4fHh8eHh8eHh4OAjnS0tKiHiSu0tKZAAAAAAAAAAAAAACQn9PSMq3T09PT09PT
+        09PTMgoeHR8fHR0fHR8dHx8fHx8fHR8fHx8OCKTT09PTcx8fQtHT05AAAAAAAAAAAAAVmtbWckTX1tbW
+        1tbV1tbW1tY0Ch8hISEhISEhISEhIR0hISEhIR8OGLTW1tbWtSUhISJv1tbSAAAAAAAAAAAAkNLXriIj
+        o9fX19fX19fX19fX1zUMISIjIiIiIyIiIiIiIiIiIyEOK9TX19fX124iIyIhI6/X15kAAAAAAAAAL5/X
+        3UUnJyaj3d3d3d3X3d3d3d3XNQ4jJyMnJyInJycnJycnJycONdnd3d3d3XUnJycnJydH3dndFgAAAAAA
+        AJDW3qQoKCgoJqjc3t7e3tzc3t7e3N5tDycoKCgpKCYoKCgmKCIOctze3tze3KkoKCgoKCgoKKXe3JwA
+        AAAAABWf4N1HKSkpKSkmqN7e3t7g3t7e4N7e3m0dKSkpKSkpKSkpKicOdODe3t7g3rY7KikmKSopKSlG
+        3uDeAAAAAACQ3eCvKioqKioqKjyq4ODg4ODg4ODg4ODgRyoqKioqKSo8KigPpeDg4ODg4NpBKikqPSop
+        KioqKqrg4JkAAAAAmeDhcD09PT09PT09PKrh4eHh4eHh4eHh30k9PTw9PT09PSggqeHh4eHh4dtIPT09
+        PT09PT0qTT1x4eHTAAAAL6Hh3jxNTU1NTU1MTU1MuO7u7u7u7u7u4XA9TU1NTE1NTSggtu7u7u7u7uVj
+        PU1NTU1NTU1NTUxNTOPu7hYAAJDg76lNTk1OTk5OTU5NTk+47+/u7+/u7+92IU5NTk5OTikkxu/u7+/v
+        7uZ4Tk5NTk5OTk1PTU5OTU6y7u+fAACf4e96T05PUFBPUFBOUE9QT7nw8O/v8PDv8HcjTk5PTio64vDv
+        7+/v8PB6TlBPUFBOUFBQTlBPUFBPee/v0wAAoe/yVE9SUlJPUlJSUlJSUlNPu/Ly8sTy8vLypiFOUCpD
+        5PLy8vLy8vJ8U1BSUlJSUlJPUlJSUlJSUlXy8t4AAN3z6FNRU1FTUVNRU1NTU1NTU1O78XtTt/Pz8/On
+        IyhH6PPz8/Pz8/OGU1NTUVNTU1NTV1NTU1FRU1NT5/PyAJr5+chRV1dRV1FRUVdYV1dXUVFYV1FXV1e8
+        +fn5+bNE9Pn5+fn5+fm8U1dRWFFRV1dXV1dRV1NRV1FXV8j5+ZDZ+Pm9WVhYWFlYWFhZUU5MUVlYWFhY
+        WVhXWLz4+Pj6+Pr4+vr6+vi9WVhYWFhYWFhYV1hYWVhYWFhYWVi9+vjZ7vz8jllZWVtZW1lZUShKcSZS
+        WVlZW1lZWVtZjPz8+vz6/Pz8+vzCW1lZW1lZW1lbW1tZW1lZW1tbWVlZjvz84fL8/ItcW1tbW1tbVyrB
+        /PzpP1FbW1tcW1tcWTzF/Pz8/Pz8/PzJW1xbW1xbW1xbW1tbXFtcW1tbW1xcXIr8/PDz/vyKXV1dXV1d
+        WT3C/v7+/utBUVxdXVpcW018/f7+/v7+/v7LWl1dWl1dXV1dXV1dWlxdXV1dXV1dXV2J/v7z8/7+il1d
+        XV1dWSrC/v7+/v7+7UFRXF1dW02F/v7+/v7+/v72QFldXV1dXV1dXV1dXV1dXF1dXV1cXVxdi/7+8vL+
+        /o1dXVpdWSrC/v7+/v7+/v7rQVFcW02H/v7+/v7+/v7+/sg8WVxdXVpcXV1dXV1dXVpdXV1dXVxdXI3+
+        /vLy/P6/XV1dWTzC/v7+/v7+/v7+/u1BUz2I/f7+/v7+/v7+/v7+zD5ZXV1dXV1dXV1dXV1dXV1dXV1d
+        XF2//vzv3vr8y1pdWT3C/v7+/v7+/v7+/v7+6z+I/v7+/v7+/v7sjf3+/v7MPFhdXV1aXV1dXV1dXV1a
+        XV1dXVxdyv763pDv+udaWk/C/v7+/v7+/v7+/v7+/v72/v7+/v7+/v7sXlyJ/v7+/s0+WV1dXV1cXV1d
+        XV1dXV1dXV1cXe3+8pAA1/n8X1uA/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7tYV1dXYP+/v7+zT5YXV1d
+        Wl1dXV1dXV1dWl1dXVr7/PIAANb5/Ghdjfz+/v7+/v7+/v7+/v7+/v7+/v7+/v7tYV1dXV1dg/7+/v7p
+        PlhdXVxcXV1dXV1dXV1dXV1r/vzvAADT8/q+WmL3/v7+/v7+/v7+/v7+/v7+/v7+/v7tYV1dXV1dXV2C
+        /f7+/uk+WF1dXV1dXV1dXV1dXVpdj/787gAAmu/651pdaff+/v78/v7+/v7+/v7+/v7+/v7tYFtaXV1d
+        XV1dXYL9/v7+6z5RXV1aXV1dXV1dXV1dXev886EAAADX+fxlWl1p9/7+/v7+/v7+/v7+/v7+/v7+7UFR
+        XV1dXV1dXV1dgf3+/v7rQVdcXV1dXV1dXV1dXWX+/PIAAAAA0/P6vVpaXWr3/v7+/v7+/v7+/v7+/v7+
+        /v7tP1FdXF1dXV1dXV1//f7+/utAUVxdXV1dXV1dXV2+/PzuAAAAAJrv+vhfWl1daff+/v7+/v7+/v7+
+        /v7+/v7+/u1BUVxdXV1dXV1dXX/7/v7+7UBRUVtdXV1dXV1e9vzyoQAAAAAA0/P6jlpaXV1q9/7+/v7+
+        /v7+/v7+/v7+/v7+7UFRXF1dXV1dXV1dfvv+/v7tP0k8XF1dXV1djfz87wAAAAAAAJ/v+vheWlpdXWn3
+        /v7+/v7+/v7+/v7+/v7+/v7tRlFdXV1dXV1dXV1++/7+/vv9x1hdXV1dXvb88tYAAAAAAAAA0/P6wFpa
+        Wl1PwP7+/v7+/v7+/v7+/v7+/v7+/u1BW11dXV1dXV1dXWv7/v7+/v1UXV1dWr/8/O8AAAAAAAAAAJ/v
+        +fxoWlpbY/3+/v7+/v7+/v7+/v7+/v7+/v7+y1ldXVpdWl1aXVpdaP7+/v7+hFtdXWn8/PLWAAAAAAAA
+        AAAA0/P69F9aUen+/v7+/v7+/v7+/v7+/v7+/v7+/vVcXVpdWl1aXVpdWn3+/v7+/upRXV71/PzvAAAA
+        AAAAAAAAAJDu8/rMWmT9/v7+/f79/v7+/v7+/v7+/v7+/v7DXVpdWl1dWlpdWl1ezv3+/v79VlzL/Prv
+        nwAAAAAAAAAAAAAAn+/5+r1k/f3+/slr9/7+/v7+/v7+/v7+/v7QX11dWl1aWl1dWl1aWl1hg8r7/Y6P
+        /Pry1gAAAAAAAAAAAAAAAACf7/n6jov1zmtaWmb3/v7+/v7+/v7+/v7QX11aXV1aXVpdWl1aXVpdWl1a
+        Wn6+/Pry1wAAAAAAAAAAAAAAAAAAAJ/v+fqMWlpaWlpaZvf9/v7+/v7+/v7PX11aXVpaXVpdWl1aXVpd
+        Wl1aXV2N/Pzv3QAAAAAAAAAAAAAAAAAAAAAAn+/5+sFaWlpaWlpm9/3+/v7+/v7QX1pdXVpaXVpdXVpa
+        XVpdXVpaWlq//Pry3QAAAAAAAAAAAAAAAAAAAAAAAACf7/n66WJaWlpaWmb3/f7+/v7PX1pdWl1dXVpd
+        WlpdXVpdWlpdWmHq/Pry3QAAAAAAAAAAAAAAAAAAAAAAAAAAAJ/v+fr6g1laWlpaZvf9/v7PX11dWl1a
+        Wl1dWl1aXVpdWl1dWoL4/Prv3QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAn+7z+frpZlpaWlpm7fvJX11a
+        XV1aWl1aXV1dXVpaXVpdZs38+vnv3QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACZ1/L5+vzIaVpaWlpd
+        XV1dXV1dXV1dXV1dXVpdXVppy/z8+vLd0wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACf7vP5+vrn
+        imJdXV1dXV1dXV1dXV1dXV1dYYrr/Pr6+e/dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJnX
+        7/P5+fr8679/ZVpdXV1dXV1aZX++7Pz8+vr5793SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAJnS3e/z+fr8/v789e3s7Oz1/f7+/vz6+u/d09IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAACZ0t35/Pz+/v7+/v7+/v7+/v753dbTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA4Pz+/v7+/v7+/v7+/v7+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        ////////////+B////////8AAH//////+AAAD//////AAAAD/////wAAAAD////+AAAAAH////gAAAAA
+        H///8AAAAAAP///gAAAAAAf//8AAAAAAA///gAAAAAAB//8AAAAAAAD//gAAAAAAAH/8AAAAAAAAP/wA
+        AAAAAAA/+AAAAAAAAB/4AAAAAAAAH/AAAAAAAAAP4AAAAAAAAA/gAAAAAAAAB+AAAAAAAAAHwAAAAAAA
+        AAPAAAAAAAAAA8AAAAAAAAADgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAA
+        AAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAYAAAAAAAAABgAAAAAAA
+        AAGAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAPAAAAAAAAAA8AAAAAAAAAD4AAAAAAAAAfgAAAAAAAAB+AA
+        AAAAAAAH8AAAAAAAAA/wAAAAAAAAD/gAAAAAAAAf/AAAAAAAAD/8AAAAAAAAP/4AAAAAAAB//wAAAAAA
+        AP//gAAAAAAB//+AAAAAAAH//+AAAAAAB///8AAAAAAP///4AAAAAB////wAAAAAP////wAAAAD/////
+        wAAAA//////wAAAP//////wAAD///////8AD////KAAAACAAAABAAAAAAQAgAAAAAAAAIAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        AAkAAAAeAAAALAAAADAAAAAwAAAALAAAAB4AAAAKAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAA
+        ADSfnp79np6e/56env+enp7/np6e/56env+enp7/np6e/56env+fnp79AAAANAAAAAoAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0BA
+        QE+kpKT/pKSk/6SkpP+kiGD/pF8A/6RfAP+kXwD/pF8A/6RfAP+kXwD/pIhg/6SkpP+kpKT/pKSk/z4+
+        Pk4AAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AB+rq6v/q6ur/6uqqP+qYwD/qmMA/6pjAP+qYwD/qmMA/6pjAP+qYwD/qmMA/6pjAP+qYwD/qmMA/6pj
+        AP+rqqf/q6ur/6urq/8AAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAwsbGx/7Gxsf+xZwD/sWcA/7FnAP+xZwD/sWcA/7FnAP+xZwD/sWcA/7FnAP+xZwD/sWcA/7Fn
+        AP+xZwD/sWcA/7FnAP+xZwD/sbGx/7Gxsf8AAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAADw8PM7i4uP+4t7b/t7e3/5loI/+2awD/t2sA/7drAP+3awD/t2sA/7drAP+3awD/t2sA/7dr
+        AP+3awD/t2sA/7drAP+3awD/t2sA/7drAP+3awD/uLe2/7i4uP8PDw8zAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAB6+vr7/vrm0/769vf++vr7/vr6+/6hzJ/+9bwD/vm8A/75vAP++bwD/vm8A/75v
+        AP++bwD/vm8A/75vAP++bwD/vm8A/75vAP++bwD/vG0A/5VXAP+hYAX/vrq0/76+vv8AAAAeAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAHxcXF/8XFxf/FxMT/xcXF/8XFxf/FxcX/xcXF/7l9Kf/DcQD/xXIA/8Vy
+        AP/FcgD/xXIA/8VyAP/FcgD/xXIA/8VyAP/FcgD/xXIA/7xuAP/Kvav/xcXF/8XFxf/FcgD/xcXF/8XF
+        xf8AAAAHAAAAAAAAAAAAAAAAAAAAAMLCwdTLy8v/y3YA/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/7+B
+        LP/JdQD/y3YA/8t2AP/LdgD/y3YA/8t2AP/LdgD/y3YA/8t2AP+9bgD/y8vL/8vLy//Ly8v/yncC/8t2
+        AP/LdgD/y8vL/8PDwdEAAAAAAAAAAAAAAAAAAAAK0tLS/9KWQv/SegD/0noA/9LS0v/S0tL/0tLS/9LS
+        0v/S0tL/0tLS/8aHL//QeQD/0noA/9J6AP/SegD/0noA/9J6AP/SegD/u20A/9LS0v/S0tL/0tLS/9fA
+        n//SegD/0noA/9J6AP/SlkL/0tLS/wAAAAoAAAAAAAAAAM7OzsLY2Nj/2H4A/9h+AP/YfgD/2H4A/9jY
+        2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/8mJMP/YfgD/2H4A/9h+AP/YfgD/2H4A/7drAP/Y2Nj/2NjY/9jY
+        2P/Z2dn/2H4A/9h+AP/YfgD/2H4A/9h+AP/Y2Nj/z8/PwAAAAAAAAAAB39/f/9/Cmf/fggD/34IA/9+C
+        AP/fggD/34IA/9/f3//f39//39/f/9/f3//f39//3ZQw/9+CAP/fggD/34IA/9+CAP+6bAD/39/f/9/f
+        3//f39//39/f/9+CAP/fggD/34IA/9+CAP/fggD/34IA/9/Dm//f39//AAAAAQAAAArl5eX/5YYA/+WG
+        AP/lhgD/5YYA/+WGAP/lhgD/5YYA/+Xl5f/l5eX/5eXl/+Xl5f/YtYT/44QA/+WGAP/lhgD/um0A/+Xl
+        5f/l5eX/5eXl/+Xl5f/lhgD/5YYA/+WGAP/lhgD/5YYA/+WGAP/lhgD/5YYA/+Xl5f8AAAAKqampTuzs
+        7P/siQD/7IkA/+yJAP/siQD/7IkA/+yJAP/siQD/7IkA/+zs7P/qnTH/7Ozs/+zs7P/ewZn/5oYA/7tt
+        AP/s7Oz/7Ozs/+zs7P/s7Oz/7IkA/+yJAP/siQD/7IkA/+yJAP/siQD/7IkA/+yJAP/siQD/7Ozs/6io
+        qE3u7u7X8/Pz//KNAP/yjQD/8o0A//KNAP/yjQD/8IwA//KNAP/yjQD/8o0A//KNAP/yjQD/8/Pz//Pz
+        8//hy6r/8/Pz//Pz8//z8/P/8/Pz//KNAP/yjQD/8o0A//KNAP/yjQD/8o0A//KNAP/yjQD/8o0A//KN
+        AP/z8/P/7u7u1vn5+f/5+fn/+ZEA//mRAP/5kQD/+ZEA/9R7AP/5+fn/ynYA//mRAP/5kQD/+ZEA//mR
+        AP/3kAD/+fn5//n5+f/5+fn/+fn5//n5+f/5kQD/+ZEA//mRAP/5kQD/+ZEA//mRAP/5kQD/+ZEA//mR
+        AP/5kQD/+ZEA//n5+f/5+fn////////////+lAD//pQA//6UAP/XfQD/////////////////zngA//6U
+        AP/+lAD/+5IA//CrSv//////////////////////+JAA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD///////////////////////6UAP/+lAD/130A////////////////////
+        ////////zngA//uSAP/wuWz/////////////////////////////7tf/+JEA//6UAP/+lAD//pQA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP////////////b29rP//////pQA/9l/AP//////////////
+        ////////////////////////78B////////////////////////9kwD/////////////8uH/+JEA//6U
+        AP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//pQA///////09PSxd3d3D//////+lAD/////////
+        /////////////////////////////////////////////////////////ZMA//6UAP/+lAD/////////
+        ////9uv/+JEA//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP/+lAD//////2ZmZg8AAAAA//////6U
+        AP/8lQb///////////////////////////////////////////////////////yTAP/+lAD//pQA//6U
+        AP/+lAD/////////////+vT/844A//6UAP/+lAD//pQA//6UAP/+lAD//pQA//6UAP//////AAAAAAAA
+        AAD///////7+//6UAP/8lQX/////////////////////////////////////////////////zngA//6U
+        AP/+lAD//pQA//6UAP/+lAD//////////////fr/844A//6UAP/+lAD//pQA//6UAP/+lAD////+////
+        //8AAAAAAAAAAO/v60L//////pQA//6UAP/8lQX/////////////////////////////////////////
+        ////////zngA//6UAP/+lAD//pQA//6UAP/+lAD//////////////vz/3YEA//mRAP/+lAD//pQA//6U
+        AP//////6+vrQQAAAAAAAAAAAAAAAP//////9+z//pQA//6UAP/riwT/////////////////////////
+        ////////////////////////zngA//6UAP/+lAD//pQA//6UAP/+lAD/////////////////6qA4//6U
+        AP/+lAD///ft//////8AAAAAAAAAAAAAAAAAAAAA5OTkJ///////lQD//pQA////////////////////
+        /////////////////////////////////////////pQA//+VAP//lQD//5UA//+VAP/7kgD/////////
+        /////////pQA//+VAP//////6urqJQAAAAAAAAAAAAAAAAAAAAAAAAAA///////////9lAD/////////
+        ////+/X////////////////////////////////////////z4f//lQD//5UA//+VAP//lQD//5UA//+V
+        AP/+tlH////////////5kQD///////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        ///+nRT//5UA//+VAP/9lQP/////////////////////////////8uH//5UA//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////////////lQD//5UA//+VAP/9lQL///////////////////Lg//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP///////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////////////y4P//5UA//+VAP/9lAL////////x3v//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//zIT///////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/f39hP///////////8Jt//+VAP//lQD//5UA//+V
+        AP//lQD//5UA//+VAP//lQD//5UA//+VAP//wGj////////////9/f2FAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP79/d//////////////
+        ////9+3//7tc//+fGf//nxn//7tc///47f/////////////////+/f3eAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/v797P////////////////////////////////7+/esAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////+AH//+AAf/+AAB//AAAP/gAAB/wAAAP4AAAB8AA
+        AAPAAAADgAAAAYAAAAGAAAABgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAYAAAAGAAAABwAAAA8AA
+        AAPgAAAH4AAAB/AAAA/4AAAf/AAAP/4AAH//gAH///AP/ygAAAAgAAAAQAAAAAEACAAAAAAAAAgAAAAA
+        AAAAAAAAAAAAAAAAAACrYwD/pGcR/6RrHP+xZwD/s2gA/7ZqAP+3bgj/uGsA/7hsAP+5bQX/vm8A/710
+        Df+rcSD/rnUn/6R1Mv+kdTP/r346/7F3J/+xfzr/xHIA/8VyAP/EdAX/y3YA/8J7GP/RegD/0noA/9d9
+        AP/YfgD/2X4A/9l/A/+pgUr/pIRW/7CIUP+2jVP/vZJW/6uSb/+umXr/t59+/7ufeP++o33/y4EY/9uA
+        AP/cgAD/3YEA/9+CAP/ZgQj/2YII/9+GCf/HgyP/y4Yl/8uKMP/RiiX/2I4m/9+SJ//TlDz/4oQA/+aG
+        AP/siQD/7IsF/+yMBf/vjQT/5IwQ/+aNEP/skxf/8YwA//GNAP/xjgP/8o0A//ONAP/yjgL/9I8B//WO
+        AP/2jwD/95AA//mRAP/5kgD/+5MA//qSAP/8kwD//ZMA//6UAP//lQD//5YC//+WBP//mQr//poP//CZ
+        H//+mxD//psS//6cFP/+nRb//p4X/+SVJ//llif/6Zkp/+mYKP/smyn/7Joo/+acNf/jnDj/8psh//Ob
+        IP/7oB///6Ed//6hHv//oR7/6aE9/+miP//5oSf//6gu//OhMP/8qDL//6s1//usPv/+rT7//648/8yT
+        Q//EmFr/zptT/9icSf/bo1T/0qNg/9KjYf/TrHb/1q94/9+1e//ftnv/3LZ//+miQP/qo0D/+a1D//+y
+        Rf/+tU///rZR//+2Uf/+t1P//rdS//63Vf/+t1T/7bpy/+y7eP/uvnr/87pq//a9bf//v2b//8Nw///H
+        eP//yHv//8h8/56env+lmIb/sJ2C/66klv+2oIH/t6OG/72pjf+yppb/paWl/6urqv+/v7//wbGa/8Wy
+        mP/Gs5r/2b6X/8W3o//OwbD/y8W7/+nIm//vzZ7//8uC//HNmv/xzp7//tOW///Ul///1Zv//9ae/+LL
+        q//gy67/5tW+//HQo//y0qf/9NWq//TXrv//16D//9up//ffvP/73LH/+d21//ndtv/+37P//+G3///k
+        v//FxcX/zMfB/8zMy//MzMz/0svB/9XNwf/Z0cf/2dLI/93Xzv/f183/0tLS/9nZ2P/Z2dn/39/f/+zf
+        zf/m3dL/5eHb/+zh0v/s4tP/8+HH//PhyP//5cD/+uXJ//7oyP/+6cz//uvP//Pn1v/z6Nn//+zS///t
+        1f//7tf//+/Z///x3f//8t//5ubm/+zp5f/s7Oz/9u/k//Px7//58OP///Pi//3z5f/88+f//PTn///1
+        5///9un/8/Pz///58v/++fP///rz//768///+vT//vr0//n5+f///fn//vz6///9+v///fv///78///+
+        /f///v7////+//////8AAAD/AQEBAQEBAQEBAQEBAQIflR8fDwEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+        H5WVlZWVlZWVlZaWAQEBAQEBAQEBAQEBAQEBAQEBlZWVlh8PAgEBAg8flp2VlgEBAQEBAQEBAQEBAQEB
+        H5WVIwwAAAAAAAAAAAAADCOenR8BAQEBAQEBAQEBAZWVlQ0DAwMDAwMDBAMDAwMDAxGcnpYBAQEBAQEB
+        AQGVlZYkHgQHCQUHCAcFBwcHBwcHBwYln5UBAQEBAQEBlZ2YmZ+fIAcKCgoKCgoKCgoKCgoEEBInn5UB
+        AQEBAR+dnpvAwMDAIQoTFRMTFBQUFBQTCSbApBWinx8BAQEBlZ8ypsLDwsPCIhMWFhYWFhYWFguiwsN0
+        FijBnwEBAZWfJhkzxMrKysrKdRYZGRkZGRgXpcrKexgYGXrKlQEBlcotGhw0x8zMzMzLdhscHRwaMMXM
+        zKMdHRwcLsefAQ/Dfx0sLCw1yc3Nzc14LCwsKzLIzc2xLywsLCwsfs0PwuJiODg4ODhdz+Li4nwqODc2
+        0OLisj44ODg4ODhj4sLN4zs5OTk5OTlg0ozR5H8pd+Pk5M4/OTk5OTk5OTvjzeTTQUNFRkE5QUFBQWTa
+        7rDm7u7bZEZERkRARUZERNTk7rtLS0tJXKdjRktLS1bl9fX152xLSUlJSkpNS0lLvO73vVJMTF/n/vBq
+        SUxDi/3+/vduTFFQUlBQUFBRTlC99fXVUkxe6/3+/vBqQY3+/v78/qpCUVBOUE5QUVFQUtX19eVMYOv9
+        /v7+/vKo/v7+8oje/qtCUE5ST1BQUFBM5/X19Ve79/7+/v7+/v7+/vJyUVvd/bNCUE5PUVFQTFj17sru
+        joP1/vz+/v7+/v70cUxRTFvc/rQ8UFBPUFBSh+TKAcPIUof3/vz+/v7+/vCAS1BQUFnZ/rU8UVFSTky6
+        5AEBwO5gUor3/f7+/v7+/vSAS1FRUFjY/rY9RlBSZvXiAQGd4rJLUo/+/v3+/v7+/vSATFFRUFfX/vqO
+        Uky15J8BAQHA5I5Guf39/f7+/v7+/utMUVFRUWb+/tZChPXiAQEBAZXN7oH19771/vv+/v7+rE5QUVJR
+        U5HV+oLu4p4BAQEBAZ7i5I2DUoj1/f7+/a9SUFBRUVFRUkxv7uLDAQEBAQEBAZ7i7oFUTIj3+v2vUlFQ
+        UVJQUlFMgu7iwwEBAQEBAQEBAZ7i5KdXTIjyrVJSUVFRUFNNP6ru4sMBAQEBAQEBAQEBAZXD4u6naFJM
+        UVFRUVFRZqnu4sPAAQEBAQEBAQEBAQEBAQGVyuT13a6SkJCSrtz+5MrAAQEBAQEBAQEBAQEBAQEBAQEB
+        yvX+/v7+/v7+/vz3AQEBAQEBAQEBAf//////4Af//4AB//4AAH/8AAA/+AAAH/AAAA/gAAAHwAAAA8AA
+        AAOAAAABgAAAAYAAAAGAAAABAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAYAAAAHAAAADwAAAA+AA
+        AAfgAAAH8AAAD/gAAB/8AAA//gAAf/+AAf//8A//KAAAABAAAAAgAAAAAQAgAAAAAAAACAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEoCAgKWbm5v/m5ub/4CAgKUAAAASAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASqKio/6iBS/+nYQD/p2EA/6dhAP+nYQD/qIFL/6io
+        qP8AAAASAAAAAAAAAAAAAAAAAAAAAAAAAAATExM1tbW1/7RpAP+0aQD/tGkA/7RpAP+0aQD/tGkA/7Rp
+        AP+0aQD/tbW1/xMTEzQAAAAAAAAAAAAAAAAAAAARwsHA/8LCwv/CwsL/v3AA/8FxAP/BcQD/wXEA/8Fx
+        AP/BcQD/vG4A/8LCwv/CwcH/AAAAEQAAAAAAAAAAz8/P/854AP/Pz8//z8/P/8/Pz//MdwD/zngA/854
+        AP/OeAD/uGsA/8/Pz//SmEf/zngA/8/Pz/8AAAAAAAAAEdyAAP/cgAD/3IAA/9zc3P/c3Nz/3Nzc/9yA
+        AP/cgAD/umwA/9zc3P/c3Nz/3IAA/9yAAP/cgAD/AAAAEenp6f/piAD/6YgA/+mIAP/piAD/6enp/+np
+        6f/mhgD/vW4A/+np6f/p6en/6YgA/+mIAP/piAD/6YgA/+np6f/29vb/9o8A//aPAP/dgQD/9o8A//aP
+        AP/2jwD/9vb2//b29v/29vb/9o8A//aPAP/2jwD/9o8A//aPAP/29vb///////6UAP/XfQD/////////
+        ///+lAD/8LNf////////////+JEA//6UAP/+lAD//pQA//6UAP/+lAD////////////3kAD/////////
+        /////////////////////////pQA///////4kQD//pQA//6UAP/+lAD//pQA///////29PR5/pQA////
+        /////////////////////////pQA//6UAP/+lAD///////OOAP/+lAD//pQA//6UAP/09PR4AAAAAP//
+        ///+lAD////////////////////////////+lAD//pQA//6UAP///////t6y//6UAP//////AAAAAAAA
+        AAD9/fzO/5UA////////////////////////////+6Il//+VAP//lQD///ry////////lQD//fz8zQAA
+        AAAAAAAAAAAAAP//////lQD//5UA//////////////Lg//+VAP//lQD//5UA//+VAP//lQD//////wAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/v79+v//////lQD//7JH//+VAP//lQD//5UA//+VAP///////v79+gAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////AAAAAAAA
+        AAAAAAAAAAAAAAAAAAD8PwAA8A8AAOAHAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIAB
+        AACAAQAAwAMAAOAHAAD4HwAAKAAAABAAAAAgAAAAAQAIAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAKhm
+        C/+vcRz/tWkA/7VtCv+7dRX/unkf/6hwIv/CcQD/zngA/894AP/Pewb/x34W/6iEU/+6nnf/24AA/9yA
+        AP/cgAH/xok1/9+PIP/piAD/6YkE/+mODv/vkQ7/9o8A//aTCP/1lQ///ZQA//6UAP//lQD//5UB//6W
+        BP/3nR//+JcQ//6dFf//nRX/650w//SgKv/0oS3//6Um//WkM//5qTr//q07//+tO//+rj//zpRB/9KY
+        SP/cnUX/3KNT/96nW//PoWH/6aZJ//SrRv/yrk7/8rRe//61UP//t1H//rZS//24WP/8ulz//btf//++
+        Yv/+vmX/9MF7///Ecf++tKb/3LqK/9i9mP/Au7T/y8Cx///Qj//py6L/9tu2/83Jw//Pzcv/z8/P/9vZ
+        1v/c2tf/3Nzc/+XZx//p2sb/+eXI//nlyv//6Mn/8erf///s0f//7NL/++7c//3u2f/8793/6ejm//vx
+        5P/+8uH//ffu///37P/29vX//vz5///+/v//////AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAAAAAwNQAxADAYAAAAAAAAADEAMBgAABgwNDQAAAAAADEAGAAICAgICAw1AAAAAQEBAQAQHBwcH
+        BwUNDUAADUMsSUpECwgJCBFIMQpEDUovDi5LTUIPDi1LQQ4OL0pZFRMTMk9OEjBZRhQUExVZURcXIxUX
+        M1NeRxgXFxcXUVUaNF9QFj5hYCcaGh0aGlVfKF9hYVpgUjZWJRoaGh5cXjpVYWBgXx8aK1glGhwrYU1J
+        GVZgYGFRIBopWzUXSE0ASkFeWmBgYTscHT1cPk0AAENKQh9UYEUcHB0eNU1KAAAAQ0pIKDweHBwmQkpK
+        AAAAAAAATV5XR0dVYWAAAAAA/D8AAPAPAADgBwAAwAMAAIABAACAAQAAAAAAAAAAAAAAAAAAAAAAAIAB
+        AACAAQAAgAEAAMADAADgBwAA+B8AAA==
+</value>
+  </data>
+  <data name="checkMPArmR2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 171</value>
+  </data>
+  <data name="checkMPHead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 43</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegL1.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="groupMPHideAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;btnAppearUncollected.Name" xml:space="preserve">
+    <value>btnAppearUncollected</value>
+  </data>
+  <data name="&gt;&gt;groupStarsAppearance.Name" xml:space="preserve">
+    <value>groupStarsAppearance</value>
+  </data>
+  <data name="groupMPShowAll.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="pictureMP.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkMPLegR2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnComboStarReload.Parent" xml:space="preserve">
+    <value>groupStarsAppearance</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegL2.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="checkMPArmL1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="btnSmoke.Text" xml:space="preserve">
+    <value>Fix Smoke Texture</value>
+  </data>
+  <data name="btnAppearCollected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 51</value>
+  </data>
+  <data name="checkMPTorso.Text" xml:space="preserve">
+    <value>Torso</value>
+  </data>
+  <data name="checkMPArmL1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 148</value>
+  </data>
+  <data name="&gt;&gt;btnBlackBars.Name" xml:space="preserve">
+    <value>btnBlackBars</value>
+  </data>
+  <data name="checkMPLegR2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 240</value>
+  </data>
+  <data name="btnRemoveSparkles.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbStarAddresses.Name" xml:space="preserve">
+    <value>lbStarAddresses</value>
+  </data>
+  <data name="btnAppearUncollected.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmL2.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="checkMPRightHand.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkMPLeftHand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="&gt;&gt;btnFixBlackTextures.Name" xml:space="preserve">
+    <value>btnFixBlackTextures</value>
+  </data>
+  <data name="groupMain.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="checkMPRightHand.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;checkMPCore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveDust.Parent" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
+  </data>
+  <data name="btnAppearUncollected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 26</value>
+  </data>
+  <data name="checkMPTorso.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnFixBlackTextures.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbStarAddresses.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkMPLegR2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="groupAdvancedTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 143</value>
+  </data>
+  <data name="&gt;&gt;groupMPShowAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPLegR2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="groupBlackTextures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 230</value>
+  </data>
+  <data name="btnSmoke.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 23</value>
+  </data>
+  <data name="&gt;&gt;checkMPHead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkMPLeftFoot.Name" xml:space="preserve">
+    <value>checkMPLeftFoot</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Tiny-Huge Tweaks</value>
+  </data>
+  <data name="&gt;&gt;btnFixCam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupAdvancedTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbStarAddresses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 80</value>
+  </data>
+  <data name="&gt;&gt;groupMain.Name" xml:space="preserve">
+    <value>groupMain</value>
+  </data>
+  <data name="checkMPArmL2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSparkles.Parent" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
+  </data>
+  <data name="checkMPRightHand.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;groupStarsAppearance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAppearCollected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPLeftFoot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupMPShowAll.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="groupMPShowAll.Text" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="&gt;&gt;btnBlackBars.Parent" xml:space="preserve">
+    <value>groupMain</value>
+  </data>
+  <data name="checkMPArmR1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnRemoveDust.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnFixCam.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnFixCam.Parent" xml:space="preserve">
+    <value>groupMain</value>
+  </data>
+  <data name="checkMPLegL2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="groupMPHideAll.Text" xml:space="preserve">
+    <value>Hide All</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmL1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAppearUncollected.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;comboBlackOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmL1.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="btnComboStarReload.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;checkMPCore.Name" xml:space="preserve">
+    <value>checkMPCore</value>
+  </data>
+  <data name="checkMPRightFoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 263</value>
+  </data>
+  <data name="checkMPLegL2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 240</value>
+  </data>
+  <data name="&gt;&gt;comboBlackInput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnBlackBars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 23</value>
+  </data>
+  <data name="groupMPShowAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 306</value>
+  </data>
+  <data name="&gt;&gt;btnSmoke.Name" xml:space="preserve">
+    <value>btnSmoke</value>
+  </data>
+  <data name="groupBlackTextures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 107</value>
+  </data>
+  <data name="checkMPLegR1.Text" xml:space="preserve">
+    <value>Leg R1</value>
+  </data>
+  <data name="checkMPHead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 78</value>
+  </data>
+  <data name="&gt;&gt;comboBlackInput.Parent" xml:space="preserve">
+    <value>groupBlackTextures</value>
+  </data>
+  <data name="lbStarAddresses.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnAdvShRemove.Parent" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
+  </data>
+  <data name="checkNoHeadRotations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="btnAppearCollected.Text" xml:space="preserve">
+    <value>Appear Collected</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkMPLegR2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;btnAdvShRemove.Name" xml:space="preserve">
+    <value>btnAdvShRemove</value>
+  </data>
+  <data name="btnRemoveDust.Text" xml:space="preserve">
+    <value>Dust</value>
+  </data>
+  <data name="&gt;&gt;groupMP.Name" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="btnAdvShRemove.Text" xml:space="preserve">
+    <value>Shadows</value>
+  </data>
+  <data name="groupMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 110</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>355, 374</value>
+  </data>
+  <data name="btnRemoveBubbles.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveBubbles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupMPHideAll.Name" xml:space="preserve">
+    <value>groupMPHideAll</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAppearUncollected.Text" xml:space="preserve">
+    <value>Appear Uncollected</value>
+  </data>
+  <data name="lbStarAddresses.Text" xml:space="preserve">
+    <value>Model Addresses:</value>
+  </data>
+  <data name="checkNoShadowSimple.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="&gt;&gt;btnAppearCollected.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkMPArmL1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkMPArmL2.Text" xml:space="preserve">
+    <value>Arm L2</value>
+  </data>
+  <data name="&gt;&gt;checkMPLeftFoot.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
+  <data name="&gt;&gt;btnAdvShRemove.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBlackInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 21</value>
+  </data>
+  <data name="&gt;&gt;groupBlackTextures.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSplashes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveWaterEffects.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRemoveSparkles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 19</value>
+  </data>
+  <data name="btnFixCam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 23</value>
+  </data>
+  <data name="checkMPLegR2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSplashes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkMPLegL2.Name" xml:space="preserve">
+    <value>checkMPLegL2</value>
+  </data>
+  <data name="&gt;&gt;btnSmoke.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPArmL1.Text" xml:space="preserve">
+    <value>Arm L1</value>
+  </data>
+  <data name="checkMPArmR1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveBubbles.Parent" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
+  </data>
+  <data name="&gt;&gt;groupMP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmR1.Name" xml:space="preserve">
+    <value>checkMPArmR1</value>
+  </data>
+  <data name="checkMPArmL2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 171</value>
+  </data>
+  <data name="groupMP.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmL1.Name" xml:space="preserve">
+    <value>checkMPArmL1</value>
+  </data>
+  <data name="groupStarsAppearance.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkMPLegR1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btnRemoveBubbles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 48</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="checkNoShadowSimple.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBlackTextures.Text" xml:space="preserve">
+    <value>Fix Black Textures</value>
+  </data>
+  <data name="checkMPArmL2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="btnAppearCollected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 26</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSparkles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupMPShowAll.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
