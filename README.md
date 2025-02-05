@@ -19,7 +19,7 @@ Implements [sm64rise's and integerbang's GameShark code](https://www.youtube.com
 ## No Head Rotations
 Replaces the normal standing animations with the Reading/C-Up animation, which does not have the potentially unwanted head rotations. Can be toggled. Intended as a shortcut.
 ## No Black Bars
-Implements a SM64 ROM Manager tweak that removes the black bars that can be seen in SM64 and a lot of ROM Hacks.\
+Implements a SM64 ROM Manager tweak that removes the black bars that can be seen in SM64 and a lot of ROM Hacks.
 
 Marked as Work-In-Progress since I'm not completely sure if it will work everywhere with the way it's currently implemented. It did work for me perfectly fine any time I tried to use it.
 ## No Shadow (Simple)
@@ -35,7 +35,7 @@ Allows you to change the stars' models from collected to uncollected and vice ve
 ### Model Addresses
 Since ROM hacks often have different RAM addresses for storing these models, Tiny-Huge Tweaks allows you to add your own addresses for the star models in different ROM hacks (see `TinyHugeTweaks/starAddresses.config`). You can find these addresses by using a tool like [STROOP](https://github.com/SM64-TAS-ABC/STROOP) (I recommend using Mupen64 with that).
 ## Show/Hide Body Parts
-Implements a GameShark code that makes Mario's body invisible, but in a way that allows you to toggle it for each body part.\
+Implements a GameShark code that makes Mario's body invisible, but in a way that allows you to toggle it for each body part.
 
 Marked as Work-In-Progress, because it doesn't support other body states (open hands, Wing Cap's wings, Metal Mario etc.) and custom models right now.
 
