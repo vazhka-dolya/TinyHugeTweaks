@@ -37,7 +37,7 @@ Since ROM hacks often have different RAM addresses for storing these models, Tin
 ## Show/Hide Body Parts
 Implements a GameShark code that makes Mario's body invisible, but in a way that allows you to toggle it for each body part.
 
-Marked as Work-In-Progress, because it doesn't support other body states (open hands, Wing Cap's wings, Metal Mario etc.) and custom models right now.
+Marked as Work-In-Progress, because it doesn't support other body states (open hands, Wing Cap's wings, Metal Mario etc.), custom models, and LOD Mario models right now.
 
 </details>
 
