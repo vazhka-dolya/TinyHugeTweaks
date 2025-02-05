@@ -15,15 +15,15 @@ This is an add-on for [Mario 64 Movie Maker 3](https://github.com/projectcomet64
   <summary>Click here to view</summary>
 
 ## Fix Cam Freeze
-Fixes the camera zooming out when freezing by implementing [sm64rise's and integerbang's GameShark code](https://www.youtube.com/watch?v=FBRHespARdY). Intended to be a shortcut so that you don't have to reenter the code every time you use a new ROM.
+Implements [sm64rise's and integerbang's GameShark code](https://www.youtube.com/watch?v=FBRHespARdY) that fixes the camera being zoomed out. Intended to be a shortcut so that you don't have to reenter the code every time you use a new ROM.
 ## No Head Rotations
-Replaces the normal standing animations with the Reading/C-Up animation, which does not have the potentially unwanted head rotations. Also intended to be a shortcut.
+Replaces the normal standing animations with the Reading/C-Up animation, which does not have the potentially unwanted head rotations. Can be toggled. Intended as a shortcut.
 ## No Black Bars
 Implements a SM64 ROM Manager tweak that removes the black bars that can be seen in SM64 and a lot of ROM Hacks.\
 
 Marked as Work-In-Progress since I'm not completely sure if it will work everywhere with the way it's currently implemented. It did work for me perfectly fine any time I tried to use it.
 ## No Shadow (Simple)
-Implements a cheat code that removes Mario's shadow. Most likely won't work on custom models. Intended as a shortcut.
+Implements a simple GameShark code that removes Mario's shadow. Most likely won't work on custom models. Intended as a shortcut.
 ## Fix Smoke Texture
 Implements a SM64 ROM Manager tweak that fixes the smoke texture being mistakingly set to be RGBA16[^3] instead of IA16[^4].
 ## Advanced Texture Remover
@@ -33,11 +33,11 @@ Implements [SM64 Save State Fixer](https://github.com/vazhka-dolya/sm64_save_sta
 ## Stars' Appearance
 Allows you to change the stars' models from collected to uncollected and vice versa. You need to pause the game before using it, otherwise it's likely to crash SM64.
 ### Model Addresses
-Since ROM hacks often have different RAM addresses for storing these models, Tiny-Huge Tweaks allows you to add your own addresses for the star models in different ROM hacks. You can find these addresses by using a tool like [STROOP](https://github.com/SM64-TAS-ABC/STROOP) (I recommend using Mupen64 with that).
+Since ROM hacks often have different RAM addresses for storing these models, Tiny-Huge Tweaks allows you to add your own addresses for the star models in different ROM hacks (see `TinyHugeTweaks/starAddresses.config`). You can find these addresses by using a tool like [STROOP](https://github.com/SM64-TAS-ABC/STROOP) (I recommend using Mupen64 with that).
 ## Show/Hide Body Parts
-Allows you to change the visibility of Mario's different body parts.\
+Implements a GameShark code that makes Mario's body invisible, but in a way that allows you to toggle it for each body part.\
 
-Marked as Work-In-Progress, because it doesn't work with other body states (open hands, Wing Cap's wings, Metal Mario etc.).
+Marked as Work-In-Progress, because it doesn't support other body states (open hands, Wing Cap's wings, Metal Mario etc.) and custom models right now.
 
 </details>
 
