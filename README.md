@@ -1,5 +1,5 @@
 [Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/README.ru.md) | **Read this page in English**
-# BodyStates
+# Tiny-Huge Tweaks
 This is an add-on for [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM) that offers numerous tweaks, which can save time and slightly improve the quality of your SM64 machinimas.
 <p align="center">
   <img src="https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/GitHubImg/ReadmeImage2_eng.png" width="666"/>
