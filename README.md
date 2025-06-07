@@ -19,7 +19,7 @@ Implements [sm64rise's and integerbang's GameShark code](https://www.youtube.com
 ## No Head Rotations
 Replaces the normal standing animations with the Reading/C-Up animation, which does not have the potentially unwanted head rotations. Can be toggled. Intended as a shortcut.
 ## No Black Bars
-Implements a SM64 ROM Manager tweak that removes the black bars that can be seen in SM64 and a lot of ROM Hacks.
+Implements a SM64 ROM Manager tweak that removes the black bars that can be seen in SM64 and a lot of ROM hacks.
 
 Marked as Work-In-Progress since I'm not completely sure if it will work everywhere with the way it's currently implemented. It did work for me perfectly fine any time I tried to use it.
 ## No Shadow (Simple)
@@ -47,7 +47,7 @@ Marked as Work-In-Progress, because it doesn't support other body states (open h
   
 - Visual Studio 2022.
 - M64MM3's repository in a folder called `M64MM` outside of where this repository is.
-  - Example: if the `.sln` for BodyStates is in `C:/projects/TinyHugeTweaks/TinyHugeTweaks.sln`, the whole M64MM3 repository must be in `C:/projects/M64MM`.
+  - Example: if the `.sln` for Tiny-Huge Tweaks is in `C:/projects/TinyHugeTweaks/TinyHugeTweaks.sln`, the whole M64MM3 repository must be in `C:/projects/M64MM`.
 - If you're on Windows, then, before extracting the archives, make sure to right-click the archive, open **Properties** and see if you have an **Unblock** checkbox. If you do, tick it and press **Apply**. If you don't do this and the archive(s) remain blocked, you may run into issues.
 - *Depending on the circumstances*, you *may* have to do the following: go to **Menu** > **Tools** > **NuGet Package Manager** > **Package Manager Console** and enter `Install-Package HtmlRenderer.WinForms`. After that, go to **Menu** > **Project** > **Manage NuGet Packages…**, and make sure that both `HtmlRenderer.Core` and `HtmlRenderer.WinForms` are up-to-date.
 
