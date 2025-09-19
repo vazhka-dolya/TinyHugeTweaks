@@ -9,5 +9,5 @@
 - Переработано Продвинутое убирание текстур. Теперь поддерживается больше текстур, которые теперь в списке. Ещё теперь можно обратно добавлять стёртые текстуры.
 
 <p align="center">
-  <img src="https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/GitHubImg/ReadmeImage3_eng.png"/>
+  <img src="https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/GitHubImg/ReadmeImage3_rus.png"/>
 </p>
