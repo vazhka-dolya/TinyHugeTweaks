@@ -117,30 +117,84 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="TinyHugeTweaks\ImageData\bubble.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\bubble_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\butterfly.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\butterfly_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\coin.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\coin_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\dust.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\dust_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\explosion.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\explosion_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\shadow_round.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\shadow_round_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\shadow_square.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\shadow_square_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\snow_particle.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\snow_particle_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\sparkle.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\sparkle_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\water.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\water_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\water_particle.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\water_particle_empty.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\water_splash.kcscache.bin" />
-    <None Include="TinyHugeTweaks\ImageData\water_splash_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\bubble.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\bubble_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\butterfly.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\butterfly_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\coin.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\coin_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\dust.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\dust_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\explosion.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\explosion_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\leaf.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\leaf_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\shadow_round.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\shadow_round_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\shadow_square.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\shadow_square_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\snow_particle.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\snow_particle_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\sparkle.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\sparkle_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\water.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\water_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\water_particle.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\water_particle_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\water_splash.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TinyHugeTweaks\ImageData\water_splash_empty.kcscache.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="TinyHugeTweaks\starAddresses.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
