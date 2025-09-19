@@ -423,7 +423,7 @@ Head
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>359, 335</value>
+    <value>342, 335</value>
   </data>
   <data name="&gt;&gt;checkNoHeadRotations.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1517,7 +1517,7 @@ Head
     <value>52, 43</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>342, 24</value>
+    <value>325, 24</value>
   </data>
   <data name="groupMPHideAll.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
