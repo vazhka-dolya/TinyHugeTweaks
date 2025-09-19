@@ -2,12 +2,12 @@
 # Tiny-Huge Tweaks
 This is an add-on for [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM) that offers numerous tweaks, which can save time and slightly improve the quality of your SM64 machinimas.
 <p align="center">
-  <img src="https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/GitHubImg/ReadmeImage2_eng.png" width="666"/>
+  <img src="https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/GitHubImg/ReadmeImage3_eng.png"/>
 </p>
 
 # Installing and using
 1. Make sure you have the [latest version](https://github.com/projectcomet64/M64MM/releases/latest) of M64MM3 installed.
-2. Download the [latest version](https://github.com/vazhka-dolya/TinyHugeTweaks/releases/latest) of the add-on. It will be in a `.zip` archive.
+2. Download the [latest version](https://github.com/vazhka-dolya/TinyHugeTweaks/releases/latest) of the add-on. It will be in an archive.
 3. Extract the downloaded archive's contents[^1] into the root folder[^2] of M64MM3. If it prompts you to replace files, then do it.
 4. That's all.
 # Currently available functionality
@@ -20,14 +20,12 @@ Implements [sm64rise's and integerbang's GameShark code](https://www.youtube.com
 Replaces the normal standing animations with the Reading/C-Up animation, which does not have the potentially unwanted head rotations. Can be toggled. Intended as a shortcut.
 ## No Black Bars
 Implements a SM64 ROM Manager tweak that removes the black bars that can be seen in SM64 and a lot of ROM hacks.
-
-Marked as Work-In-Progress since I'm not completely sure if it will work everywhere with the way it's currently implemented. It did work for me perfectly fine any time I tried to use it.
 ## No Shadow (Simple)
 Implements a simple GameShark code that removes Mario's shadow. Most likely won't work on custom models. Intended as a shortcut.
 ## Fix Smoke Texture
 Implements a SM64 ROM Manager tweak that fixes the smoke texture being mistakingly set to be RGBA16[^3] instead of IA16[^4].
 ## Advanced Texture Remover
-Straight-up erases textures, turning them into blank, completely transparent images. Right now supports removing shadows, dust, sparkles, bubbles, water effects, and water splashes.
+Can straight-up erase textures, turning them into blank, completely transparent images, and is able to add them back. Supports a variety of textures.
 ## Fix Black Textures
 Implements [SM64 Save State Fixer](https://github.com/vazhka-dolya/sm64_save_state_fixer), which fixes the textures being black in older ROM hacks when using newer graphics plugins like GLideN64.
 ## Stars' Appearance
