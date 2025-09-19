@@ -1,4 +1,4 @@
-**Прочитать эту страницу по-русски** | [Read this page in English](https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/README.md)
+**Прочитать эту страницу по-русски** · [Посмотреть список изменений в обновлениях по-русски](https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/Changelog.ru.md) | [Read this page in English](https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/README.md)
 
 # Tiny-Huge Tweaks
 Это адд-он для [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM), представляющий Вам различный функционал, позволяющий сэкономить время, а также чуть-чуть улучшить Ваши СМ64-машинимы.
