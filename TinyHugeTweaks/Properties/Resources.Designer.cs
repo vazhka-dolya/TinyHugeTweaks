@@ -61,6 +61,123 @@ namespace TinyHugeTweaks.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bubble.
+        /// </summary>
+        internal static string CacheBubble {
+            get {
+                return ResourceManager.GetString("CacheBubble", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Butterfly.
+        /// </summary>
+        internal static string CacheButterfly {
+            get {
+                return ResourceManager.GetString("CacheButterfly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Coin.
+        /// </summary>
+        internal static string CacheCoin {
+            get {
+                return ResourceManager.GetString("CacheCoin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dust.
+        /// </summary>
+        internal static string CacheDust {
+            get {
+                return ResourceManager.GetString("CacheDust", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Explosion.
+        /// </summary>
+        internal static string CacheExplosion {
+            get {
+                return ResourceManager.GetString("CacheExplosion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Leaf.
+        /// </summary>
+        internal static string CacheLeaf {
+            get {
+                return ResourceManager.GetString("CacheLeaf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Round Shadow.
+        /// </summary>
+        internal static string CacheShadowRound {
+            get {
+                return ResourceManager.GetString("CacheShadowRound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Square Shadow.
+        /// </summary>
+        internal static string CacheShadowSquare {
+            get {
+                return ResourceManager.GetString("CacheShadowSquare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Snow Particle.
+        /// </summary>
+        internal static string CacheSnowParticle {
+            get {
+                return ResourceManager.GetString("CacheSnowParticle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sparkle.
+        /// </summary>
+        internal static string CacheSparkle {
+            get {
+                return ResourceManager.GetString("CacheSparkle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Water Effects.
+        /// </summary>
+        internal static string CacheWater {
+            get {
+                return ResourceManager.GetString("CacheWater", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Underwater Particle.
+        /// </summary>
+        internal static string CacheWaterParticle {
+            get {
+                return ResourceManager.GetString("CacheWaterParticle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Water Splash.
+        /// </summary>
+        internal static string CacheWaterSplash {
+            get {
+                return ResourceManager.GetString("CacheWaterSplash", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Land94_Star {
@@ -77,6 +194,24 @@ namespace TinyHugeTweaks.Properties {
             get {
                 object obj = ResourceManager.GetObject("liquoricepie_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Various tweaks that may come in handy for Super Mario 64 machinimas..
+        /// </summary>
+        internal static string m64mm_desc {
+            get {
+                return ResourceManager.GetString("m64mm_desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Tiny-Huge Tweaks.
+        /// </summary>
+        internal static string m64mm_open {
+            get {
+                return ResourceManager.GetString("m64mm_open", resourceCulture);
             }
         }
         
@@ -117,6 +252,97 @@ namespace TinyHugeTweaks.Properties {
             get {
                 object obj = ResourceManager.GetObject("tbk_icon_m", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Checking….
+        /// </summary>
+        internal static string updates_checking_string {
+            get {
+                return ResourceManager.GetString("updates_checking_string", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap updates_latest {
+            get {
+                object obj = ResourceManager.GetObject("updates_latest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Up-to-date.
+        /// </summary>
+        internal static string updates_latest_string {
+            get {
+                return ResourceManager.GetString("updates_latest_string", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap updates_outdated {
+            get {
+                object obj = ResourceManager.GetObject("updates_outdated", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update available!.
+        /// </summary>
+        internal static string updates_outdated_string {
+            get {
+                return ResourceManager.GetString("updates_outdated_string", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap updates_refresh {
+            get {
+                object obj = ResourceManager.GetObject("updates_refresh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap updates_unknown {
+            get {
+                object obj = ResourceManager.GetObject("updates_unknown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Could not check if you have the latest version.
+        ///
+        ///Possible reasons:
+        ///• The add-on has no access to the internet.
+        ///• You&apos;ve checked for updates too frequently (can lead to temporarily exceeding GitHub&apos;s API rate limit).
+        ///
+        ///Would you like to open the latest release&apos;s page on GitHub in your browser?.
+        /// </summary>
+        internal static string updates_unknown_elaborate {
+            get {
+                return ResourceManager.GetString("updates_unknown_elaborate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Can&apos;t check for updates.
+        /// </summary>
+        internal static string updates_unknown_string {
+            get {
+                return ResourceManager.GetString("updates_unknown_string", resourceCulture);
             }
         }
     }

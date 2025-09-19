@@ -133,27 +133,25 @@
   <data name="&gt;&gt;groupAdvancedTexture.Name" xml:space="preserve">
     <value>groupAdvancedTexture</value>
   </data>
-  <data name="&gt;&gt;btnRemoveSparkles.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="checkNoShadowSimple.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;checkMPLegL2.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkMPLegR1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="groupMPHideAll.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnRemoveBubbles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 23</value>
-  </data>
   <data name="checkMPCore.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
   </data>
-  <data name="checkMPLeftHand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 194</value>
-  </data>
-  <data name="checkMPLegR2.Text" xml:space="preserve">
-    <value>Leg R2</value>
+  <data name="updatesrefreshToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
   </data>
   <data name="&gt;&gt;groupBlackTextures.Name" xml:space="preserve">
     <value>groupBlackTextures</value>
@@ -163,20 +161,23 @@
 Head
  </value>
   </data>
+  <data name="checkMPArmL2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
   <data name="&gt;&gt;checkMPLegR1.Parent" xml:space="preserve">
     <value>groupMP</value>
   </data>
   <data name="comboBlackInput.Items3" xml:space="preserve">
     <value>4. Alpha RGBA texture with fog (FC FF FF FF FF FC F2 38)</value>
   </data>
+  <data name="btnBlackBars.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="checkMPLegL2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkMPLegR1.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 17</value>
-  </data>
-  <data name="btnRemoveSplashes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 48</value>
   </data>
   <data name="checkMPLeftFoot.Text" xml:space="preserve">
     <value>Foot L</value>
@@ -196,12 +197,17 @@ Head
   <data name="checkMPLegL1.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="checkMPLegR1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
+  <data name="&gt;&gt;treeView1.Name" xml:space="preserve">
+    <value>treeView1</value>
+  </data>
   <data name="checkMPRightFoot.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
+  </data>
+  <data name="btnFixCam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="checkMPLeftFoot.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -209,17 +215,23 @@ Head
   <data name="comboBoxStar.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 21</value>
   </data>
+  <data name="&gt;&gt;checkMPRightFoot.Parent" xml:space="preserve">
+    <value>groupMP</value>
+  </data>
   <data name="lbStarAddresses.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 13</value>
   </data>
   <data name="&gt;&gt;btnSmoke.Parent" xml:space="preserve">
     <value>groupMain</value>
   </data>
+  <data name="checkMPArmR2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;groupBlackTextures.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureMP.Parent" xml:space="preserve">
-    <value>groupMP</value>
+  <data name="buttonATRShow.Text" xml:space="preserve">
+    <value>Show Selected</value>
   </data>
   <data name="&gt;&gt;comboBlackOutput.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -233,14 +245,20 @@ Head
   <data name="&gt;&gt;lbStarAddresses.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;buttonATRHide.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="groupMP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 476</value>
+    <value>12, 539</value>
   </data>
   <data name="&gt;&gt;checkMPHead.Parent" xml:space="preserve">
     <value>groupMP</value>
   </data>
-  <data name="&gt;&gt;checkMPRightFoot.Parent" xml:space="preserve">
-    <value>groupMP</value>
+  <data name="&gt;&gt;treeView1.Parent" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
+  </data>
+  <data name="btnSmoke.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 20</value>
@@ -248,8 +266,8 @@ Head
   <data name="&gt;&gt;comboBoxStar.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnRemoveBubbles.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="checkMPLeftFoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
   </data>
   <data name="checkNoHeadRotations.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 17</value>
@@ -265,9 +283,6 @@ Head
   </data>
   <data name="btnBlackBars.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 49</value>
-  </data>
-  <data name="btnRemoveSparkles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 23</value>
   </data>
   <data name="&gt;&gt;checkMPLegL1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -320,8 +335,8 @@ Head
   <data name="&gt;&gt;groupMain.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnRemoveDust.Name" xml:space="preserve">
-    <value>btnRemoveDust</value>
+  <data name="&gt;&gt;checkMPLeftHand.Parent" xml:space="preserve">
+    <value>groupMP</value>
   </data>
   <data name="&gt;&gt;checkMPHead.ZOrder" xml:space="preserve">
     <value>14</value>
@@ -341,11 +356,26 @@ Head
   <data name="comboBlackInput.Items2" xml:space="preserve">
     <value>3. [Default] Solid RGBA texture with fog (FC 12 7F FF FF FF F8 38)</value>
   </data>
+  <data name="buttonATRShowAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;checkMPArmL2.Name" xml:space="preserve">
     <value>checkMPArmL2</value>
   </data>
+  <data name="checkMPLegL1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="checkMPCore.Location" type="System.Drawing.Point, System.Drawing">
     <value>128, 194</value>
+  </data>
+  <data name="&gt;&gt;buttonATRShow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonATRHideAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
+  </data>
+  <data name="&gt;&gt;checkMPRightHand.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;btnAppearCollected.Parent" xml:space="preserve">
     <value>groupStarsAppearance</value>
@@ -354,10 +384,19 @@ Head
     <value>aboutToolStripMenuItem</value>
   </data>
   <data name="btnBlackBars.Text" xml:space="preserve">
-    <value>No Black Bars (WIP)</value>
+    <value>No Black Bars</value>
   </data>
-  <data name="&gt;&gt;btnRemoveBubbles.Name" xml:space="preserve">
-    <value>btnRemoveBubbles</value>
+  <data name="checkMPArmL2.Text" xml:space="preserve">
+    <value>Arm L2</value>
+  </data>
+  <data name="checkMPLegR2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pictureMP.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnFixCam.Name" xml:space="preserve">
+    <value>btnFixCam</value>
   </data>
   <data name="comboBlackOutput.Items3" xml:space="preserve">
     <value>4. Alpha RGBA texture with fog (FC FF FF FF FF FC F2 38)</value>
@@ -374,8 +413,8 @@ Head
   <data name="&gt;&gt;checkMPRightHand.Name" xml:space="preserve">
     <value>checkMPRightHand</value>
   </data>
-  <data name="btnRemoveSplashes.Text" xml:space="preserve">
-    <value>Water Splashes</value>
+  <data name="comboBlackInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 21</value>
   </data>
   <data name="checkMPLegR1.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 217</value>
@@ -384,10 +423,13 @@ Head
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>339, 335</value>
+    <value>359, 335</value>
   </data>
   <data name="&gt;&gt;checkNoHeadRotations.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonATRShowAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkMPArmR2.Text" xml:space="preserve">
     <value>Arm R2</value>
@@ -398,32 +440,29 @@ Head
   <data name="&gt;&gt;pictureMP.Name" xml:space="preserve">
     <value>pictureMP</value>
   </data>
-  <data name="btnRemoveWaterEffects.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;checkMPLegL1.Parent" xml:space="preserve">
+    <value>groupMP</value>
   </data>
   <data name="checkMPTorso.Location" type="System.Drawing.Point, System.Drawing">
     <value>128, 160</value>
   </data>
-  <data name="btnComboStarReload.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 95</value>
-  </data>
-  <data name="&gt;&gt;checkNoShadowSimple.Parent" xml:space="preserve">
-    <value>groupMain</value>
+  <data name="&gt;&gt;buttonATRShowAll.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;checkMPArmR1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkMPLeftHand.Parent" xml:space="preserve">
-    <value>groupMP</value>
+  <data name="buttonATRHideAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupStarsAppearance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 343</value>
+  <data name="&gt;&gt;groupAdvancedTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="checkMPArmR1.Text" xml:space="preserve">
-    <value>Arm R1</value>
+  <data name="checkMPRightFoot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;btnAppearCollected.Name" xml:space="preserve">
     <value>btnAppearCollected</value>
@@ -443,26 +482,23 @@ Head
   <data name="comboBlackOutput.Size" type="System.Drawing.Size, System.Drawing">
     <value>283, 21</value>
   </data>
-  <data name="&gt;&gt;btnFixCam.Name" xml:space="preserve">
-    <value>btnFixCam</value>
+  <data name="groupMP.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;btnRemoveSplashes.Parent" xml:space="preserve">
-    <value>groupAdvancedTexture</value>
+  <data name="treeView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 110</value>
   </data>
   <data name="&gt;&gt;groupMain.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnRemoveWaterEffects.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="checkMPRightFoot.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="btnAdvShRemove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 23</value>
-  </data>
   <data name="&gt;&gt;btnFixBlackTextures.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkMPArmL1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="checkNoHeadRotations.Text" xml:space="preserve">
     <value>No Head Rotations</value>
@@ -485,8 +521,8 @@ Head
   <data name="groupBlackTextures.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;groupAdvancedTexture.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;updatesrefreshToolStripMenuItem.Name" xml:space="preserve">
+    <value>updatesrefreshToolStripMenuItem</value>
   </data>
   <data name="checkMPLeftHand.Text" xml:space="preserve">
     <value>Hand L</value>
@@ -500,14 +536,14 @@ Head
   <data name="&gt;&gt;groupMPHideAll.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="btnAdvShRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 19</value>
+  <data name="comboBlackOutput.Items2" xml:space="preserve">
+    <value>3. Solid RGBA texture with fog (FC 12 7F FF FF FF F8 38)</value>
   </data>
   <data name="&gt;&gt;checkNoShadowSimple.Name" xml:space="preserve">
     <value>checkNoShadowSimple</value>
   </data>
-  <data name="&gt;&gt;groupStarsAppearance.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnAppearCollected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;btnComboStarReload.Name" xml:space="preserve">
     <value>btnComboStarReload</value>
@@ -515,14 +551,14 @@ Head
   <data name="checkMPLegR1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="buttonATRHide.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;checkNoShadowSimple.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="btnAppearUncollected.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 19</value>
-  </data>
-  <data name="btnRemoveBubbles.Text" xml:space="preserve">
-    <value>Bubbles</value>
   </data>
   <data name="&gt;&gt;checkMPLegR1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -530,41 +566,38 @@ Head
   <data name="checkMPArmL1.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="checkMPLegL1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>165, 217</value>
+  <data name="buttonATRHideAll.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;btnRemoveSparkles.Name" xml:space="preserve">
-    <value>btnRemoveSparkles</value>
+  <data name="checkMPRightHand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="pictureMP.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="buttonATRShowAll.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;groupStarsAppearance.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="btnRemoveSplashes.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
   <data name="&gt;&gt;checkMPTorso.Name" xml:space="preserve">
     <value>checkMPTorso</value>
   </data>
-  <data name="&gt;&gt;btnRemoveWaterEffects.Name" xml:space="preserve">
-    <value>btnRemoveWaterEffects</value>
+  <data name="btnComboStarReload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 95</value>
   </data>
-  <data name="&gt;&gt;checkMPRightHand.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;buttonATRShowAll.Name" xml:space="preserve">
+    <value>buttonATRShowAll</value>
   </data>
-  <data name="btnRemoveSparkles.Text" xml:space="preserve">
-    <value>Sparkles</value>
+  <data name="groupMPHideAll.Text" xml:space="preserve">
+    <value>Hide All</value>
   </data>
-  <data name="&gt;&gt;checkMPArmR2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupAdvancedTexture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonATRHide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
   </data>
   <data name="groupMPShowAll.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;groupMPShowAll.Name" xml:space="preserve">
+    <value>groupMPShowAll</value>
   </data>
   <data name="checkMPLeftFoot.Location" type="System.Drawing.Point, System.Drawing">
     <value>165, 263</value>
@@ -584,11 +617,17 @@ Head
   <data name="checkMPArmR2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
+  <data name="checkMPArmR1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;checkMPRightFoot.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnRemoveSplashes.Name" xml:space="preserve">
-    <value>btnRemoveSplashes</value>
+  <data name="checkMPTorso.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonATRShow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;btnBlackBars.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -614,9 +653,6 @@ Head
   <data name="checkMPArmL2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="btnRemoveDust.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 19</value>
-  </data>
   <data name="&gt;&gt;checkMPLegL2.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -632,17 +668,14 @@ Head
   <data name="btnFixBlackTextures.Text" xml:space="preserve">
     <value>Fix Black Textures</value>
   </data>
-  <data name="&gt;&gt;btnRemoveDust.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;checkMPRightHand.Parent" xml:space="preserve">
     <value>groupMP</value>
   </data>
   <data name="&gt;&gt;checkMPRightHand.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnAdvShRemove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="checkMPLegR2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
   <data name="comboBlackOutput.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 47</value>
@@ -659,17 +692,20 @@ Head
   <data name="btnAppearCollected.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
+  <data name="groupMPShowAll.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
   <data name="checkMPArmR1.Location" type="System.Drawing.Point, System.Drawing">
     <value>61, 148</value>
-  </data>
-  <data name="btnRemoveWaterEffects.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 23</value>
   </data>
   <data name="btnFixCam.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 19</value>
   </data>
+  <data name="&gt;&gt;buttonATRHideAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>355, 374</value>
+    <value>358, 374</value>
   </data>
   <data name="groupStarsAppearance.Text" xml:space="preserve">
     <value>Stars' Appearance (pause game before using)</value>
@@ -677,23 +713,17 @@ Head
   <data name="&gt;&gt;checkMPArmR2.Parent" xml:space="preserve">
     <value>groupMP</value>
   </data>
-  <data name="btnAdvShRemove.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="checkMPRightHand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 194</value>
-  </data>
-  <data name="&gt;&gt;btnRemoveWaterEffects.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonATRShow.Parent" xml:space="preserve">
     <value>groupAdvancedTexture</value>
   </data>
-  <data name="&gt;&gt;groupMPShowAll.Name" xml:space="preserve">
-    <value>groupMPShowAll</value>
+  <data name="&gt;&gt;groupAdvancedTexture.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="comboBlackOutput.Items2" xml:space="preserve">
-    <value>3. Solid RGBA texture with fog (FC 12 7F FF FF FF F8 38)</value>
+  <data name="&gt;&gt;pictureMP.Parent" xml:space="preserve">
+    <value>groupMP</value>
   </data>
   <data name="&gt;&gt;groupMain.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -701,8 +731,14 @@ Head
   <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
+  <data name="checkMPTorso.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="btnFixCam.Text" xml:space="preserve">
     <value>Fix Cam Freeze</value>
+  </data>
+  <data name="checkMPLegL2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;lbStarAddresses.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -710,8 +746,8 @@ Head
   <data name="comboBoxStar.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="checkMPLegR1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;buttonATRHide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkMPRightFoot.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -722,20 +758,17 @@ Head
   <data name="&gt;&gt;checkMPRightFoot.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="checkMPLeftFoot.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+  <data name="&gt;&gt;btnFixBlackTextures.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;checkMPHead.Name" xml:space="preserve">
-    <value>checkMPHead</value>
-  </data>
-  <data name="btnRemoveWaterEffects.Text" xml:space="preserve">
-    <value>Water Effects</value>
-  </data>
-  <data name="btnRemoveDust.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 23</value>
+  <data name="&gt;&gt;checkMPLegL2.Name" xml:space="preserve">
+    <value>checkMPLegL2</value>
   </data>
   <data name="&gt;&gt;checkMPLeftHand.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBlackBars.Name" xml:space="preserve">
+    <value>btnBlackBars</value>
   </data>
   <data name="checkMPArmR1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -746,8 +779,11 @@ Head
   <data name="checkNoShadowSimple.Text" xml:space="preserve">
     <value>No Shadow (Simple)</value>
   </data>
-  <data name="btnRemoveSplashes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
+  <data name="btnComboStarReload.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonATRShowAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 106</value>
   </data>
   <data name="btnFixBlackTextures.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 75</value>
@@ -760,6 +796,9 @@ Head
   </data>
   <data name="checkMPTorso.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 17</value>
+  </data>
+  <data name="&gt;&gt;updatesrefreshToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pictureMP.Size" type="System.Drawing.Size, System.Drawing">
     <value>280, 280</value>
@@ -774,16 +813,13 @@ Head
     <value>9, 20</value>
   </data>
   <data name="btnSmoke.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 78</value>
+    <value>9, 78</value>
   </data>
   <data name="checkMPHead.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
   <data name="&gt;&gt;groupMP.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupStarsAppearance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 127</value>
   </data>
   <data name="&gt;&gt;checkMPTorso.ZOrder" xml:space="preserve">
     <value>12</value>
@@ -803,17 +839,20 @@ Head
   <data name="&gt;&gt;checkMPCore.Parent" xml:space="preserve">
     <value>groupMP</value>
   </data>
+  <data name="buttonATRShowAll.Text" xml:space="preserve">
+    <value>Show All</value>
+  </data>
   <data name="&gt;&gt;btnAppearUncollected.Parent" xml:space="preserve">
     <value>groupStarsAppearance</value>
-  </data>
-  <data name="checkNoShadowSimple.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
   </data>
   <data name="checkMPLegL2.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
   </data>
-  <data name="&gt;&gt;checkMPLeftHand.Name" xml:space="preserve">
-    <value>checkMPLeftHand</value>
+  <data name="checkMPLeftFoot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkMPLeftHand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;lbStarAddresses.Parent" xml:space="preserve">
     <value>groupStarsAppearance</value>
@@ -821,14 +860,32 @@ Head
   <data name="&gt;&gt;checkMPLegR2.Parent" xml:space="preserve">
     <value>groupMP</value>
   </data>
+  <data name="&gt;&gt;buttonATRHideAll.Name" xml:space="preserve">
+    <value>buttonATRHideAll</value>
+  </data>
+  <data name="&gt;&gt;checkMPArmL1.Name" xml:space="preserve">
+    <value>checkMPArmL1</value>
+  </data>
+  <data name="pictureMP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonATRHide.Parent" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
+  </data>
+  <data name="&gt;&gt;groupBlackTextures.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="groupMP.Text" xml:space="preserve">
     <value>Show/Hide Body Parts (WIP)</value>
   </data>
-  <data name="btnComboStarReload.Text" xml:space="preserve">
-    <value>Reload List</value>
+  <data name="buttonATRShow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
   </data>
   <data name="btnAppearCollected.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
+  </data>
+  <data name="treeView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;checkMPLegR2.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -840,7 +897,7 @@ Head
     <value>2. Alpha RGBA texture without fog (FC 12 18 24 FF 33 FF FF)</value>
   </data>
   <data name="groupAdvancedTexture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 81</value>
+    <value>301, 139</value>
   </data>
   <data name="&gt;&gt;checkMPArmL2.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -854,11 +911,14 @@ Head
   <data name="&gt;&gt;checkMPLegR1.Name" xml:space="preserve">
     <value>checkMPLegR1</value>
   </data>
-  <data name="&gt;&gt;btnFixBlackTextures.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="checkMPCore.Text" xml:space="preserve">
+    <value>Root</value>
   </data>
-  <data name="btnRemoveWaterEffects.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 48</value>
+  <data name="checkMPLegL2.Text" xml:space="preserve">
+    <value>Leg L2</value>
+  </data>
+  <data name="groupStarsAppearance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 127</value>
   </data>
   <data name="checkMPLegL1.Text" xml:space="preserve">
     <value>Leg L1</value>
@@ -866,14 +926,17 @@ Head
   <data name="comboBoxStar.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 96</value>
   </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>322, 24</value>
-  </data>
   <data name="checkMPCore.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
+  <data name="&gt;&gt;updatesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;comboBlackOutput.Parent" xml:space="preserve">
     <value>groupBlackTextures</value>
+  </data>
+  <data name="buttonATRHide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;checkNoHeadRotations.Parent" xml:space="preserve">
     <value>groupMain</value>
@@ -881,20 +944,26 @@ Head
   <data name="btnBlackBars.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
+  <data name="updatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Checking…</value>
+  </data>
   <data name="&gt;&gt;checkMPArmR2.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="checkMPCore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;btnComboStarReload.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;btnRemoveDust.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;checkMPArmR2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="checkMPCore.Text" xml:space="preserve">
-    <value>Root</value>
+  <data name="checkMPLegR2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 240</value>
   </data>
   <data name="&gt;&gt;groupMP.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -902,8 +971,8 @@ Head
   <data name="checkMPHead.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkMPLegL2.Text" xml:space="preserve">
-    <value>Leg L2</value>
+  <data name="checkMPArmR1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
   </data>
   <data name="&gt;&gt;checkMPTorso.Parent" xml:space="preserve">
     <value>groupMP</value>
@@ -1447,11 +1516,14 @@ Head
   <data name="checkMPHead.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 43</value>
   </data>
-  <data name="&gt;&gt;checkMPLegL1.Parent" xml:space="preserve">
-    <value>groupMP</value>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 24</value>
   </data>
   <data name="groupMPHideAll.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;buttonATRHideAll.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;btnAppearUncollected.Name" xml:space="preserve">
     <value>btnAppearUncollected</value>
@@ -1459,8 +1531,11 @@ Head
   <data name="&gt;&gt;groupStarsAppearance.Name" xml:space="preserve">
     <value>groupStarsAppearance</value>
   </data>
-  <data name="groupMPShowAll.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="&gt;&gt;treeView1.Type" xml:space="preserve">
+    <value>TinyHugeTweaks.Controls.kataraktaTreeView.kataraktaTreeView, TinyHugeTweaks, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnAppearUncollected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pictureMP.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1483,23 +1558,35 @@ Head
   <data name="btnAppearCollected.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 51</value>
   </data>
+  <data name="&gt;&gt;treeView1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="checkMPTorso.Text" xml:space="preserve">
     <value>Torso</value>
+  </data>
+  <data name="checkMPArmL2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="checkMPArmL1.Location" type="System.Drawing.Point, System.Drawing">
     <value>186, 148</value>
   </data>
-  <data name="&gt;&gt;btnBlackBars.Name" xml:space="preserve">
-    <value>btnBlackBars</value>
+  <data name="buttonATRHideAll.Text" xml:space="preserve">
+    <value>Hide All</value>
   </data>
-  <data name="checkMPLegR2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 240</value>
+  <data name="checkNoShadowSimple.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="btnRemoveSparkles.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="lbStarAddresses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSmoke.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbStarAddresses.Name" xml:space="preserve">
     <value>lbStarAddresses</value>
+  </data>
+  <data name="checkMPArmR1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="btnAppearUncollected.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1516,8 +1603,11 @@ Head
   <data name="&gt;&gt;btnFixBlackTextures.Name" xml:space="preserve">
     <value>btnFixBlackTextures</value>
   </data>
-  <data name="groupMain.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="buttonATRShow.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkMPLegL1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 217</value>
   </data>
   <data name="checkMPRightHand.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1525,23 +1615,14 @@ Head
   <data name="&gt;&gt;checkMPCore.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnRemoveDust.Parent" xml:space="preserve">
-    <value>groupAdvancedTexture</value>
-  </data>
-  <data name="btnAppearUncollected.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 26</value>
-  </data>
-  <data name="checkMPTorso.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkMPLegR1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="btnFixBlackTextures.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="lbStarAddresses.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkMPLegR2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
+  <data name="groupMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 110</value>
   </data>
   <data name="groupAdvancedTexture.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 143</value>
@@ -1556,7 +1637,7 @@ Head
     <value>61, 17</value>
   </data>
   <data name="groupBlackTextures.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 230</value>
+    <value>12, 288</value>
   </data>
   <data name="btnSmoke.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 23</value>
@@ -1567,11 +1648,20 @@ Head
   <data name="&gt;&gt;checkMPLeftFoot.Name" xml:space="preserve">
     <value>checkMPLeftFoot</value>
   </data>
+  <data name="treeView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="&gt;&gt;buttonATRHide.Name" xml:space="preserve">
+    <value>buttonATRHide</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Tiny-Huge Tweaks</value>
   </data>
   <data name="&gt;&gt;btnFixCam.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
   </data>
   <data name="groupAdvancedTexture.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -1582,10 +1672,10 @@ Head
   <data name="&gt;&gt;groupMain.Name" xml:space="preserve">
     <value>groupMain</value>
   </data>
-  <data name="checkMPArmL2.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="buttonATRHide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 19</value>
   </data>
-  <data name="&gt;&gt;btnRemoveSparkles.Parent" xml:space="preserve">
+  <data name="&gt;&gt;buttonATRShowAll.Parent" xml:space="preserve">
     <value>groupAdvancedTexture</value>
   </data>
   <data name="checkMPRightHand.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
@@ -1600,6 +1690,9 @@ Head
   <data name="checkMPLeftFoot.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="buttonATRHide.Text" xml:space="preserve">
+    <value>Hide Selected</value>
+  </data>
   <data name="&gt;&gt;groupMPShowAll.Parent" xml:space="preserve">
     <value>groupMP</value>
   </data>
@@ -1609,14 +1702,11 @@ Head
   <data name="&gt;&gt;btnBlackBars.Parent" xml:space="preserve">
     <value>groupMain</value>
   </data>
-  <data name="checkMPArmR1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;groupStarsAppearance.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="btnRemoveDust.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnFixCam.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="checkMPHead.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;btnFixCam.Parent" xml:space="preserve">
     <value>groupMain</value>
@@ -1624,8 +1714,8 @@ Head
   <data name="checkMPLegL2.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 17</value>
   </data>
-  <data name="groupMPHideAll.Text" xml:space="preserve">
-    <value>Hide All</value>
+  <data name="btnComboStarReload.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;checkMPArmL1.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1639,8 +1729,8 @@ Head
   <data name="&gt;&gt;checkMPArmL1.Parent" xml:space="preserve">
     <value>groupMP</value>
   </data>
-  <data name="btnComboStarReload.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="lbStarAddresses.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;checkMPCore.Name" xml:space="preserve">
     <value>checkMPCore</value>
@@ -1666,8 +1756,14 @@ Head
   <data name="groupBlackTextures.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 107</value>
   </data>
+  <data name="&gt;&gt;updatesToolStripMenuItem.Name" xml:space="preserve">
+    <value>updatesToolStripMenuItem</value>
+  </data>
   <data name="checkMPLegR1.Text" xml:space="preserve">
     <value>Leg R1</value>
+  </data>
+  <data name="groupMPShowAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="checkMPHead.Location" type="System.Drawing.Point, System.Drawing">
     <value>128, 78</value>
@@ -1678,14 +1774,14 @@ Head
   <data name="lbStarAddresses.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;btnAdvShRemove.Parent" xml:space="preserve">
-    <value>groupAdvancedTexture</value>
-  </data>
-  <data name="checkNoHeadRotations.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 23</value>
+  <data name="btnComboStarReload.Text" xml:space="preserve">
+    <value>Reload List</value>
   </data>
   <data name="btnAppearCollected.Text" xml:space="preserve">
     <value>Appear Collected</value>
+  </data>
+  <data name="checkMPLegR2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;comboBoxStar.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -1696,32 +1792,29 @@ Head
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="&gt;&gt;btnAdvShRemove.Name" xml:space="preserve">
-    <value>btnAdvShRemove</value>
-  </data>
-  <data name="btnRemoveDust.Text" xml:space="preserve">
-    <value>Dust</value>
-  </data>
   <data name="&gt;&gt;groupMP.Name" xml:space="preserve">
     <value>groupMP</value>
   </data>
-  <data name="btnAdvShRemove.Text" xml:space="preserve">
-    <value>Shadows</value>
-  </data>
-  <data name="groupMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 110</value>
+  <data name="checkMPLegR2.Text" xml:space="preserve">
+    <value>Leg R2</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>355, 374</value>
+    <value>358, 374</value>
   </data>
-  <data name="btnRemoveBubbles.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="checkNoHeadRotations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 23</value>
   </data>
-  <data name="&gt;&gt;btnRemoveBubbles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnAppearUncollected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 26</value>
   </data>
   <data name="&gt;&gt;groupMPHideAll.Name" xml:space="preserve">
     <value>groupMPHideAll</value>
+  </data>
+  <data name="updatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="groupMain.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1735,59 +1828,53 @@ Head
   <data name="checkNoShadowSimple.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 17</value>
   </data>
+  <data name="checkMPArmR1.Text" xml:space="preserve">
+    <value>Arm R1</value>
+  </data>
   <data name="&gt;&gt;btnAppearCollected.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="checkMPArmL1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkMPArmL2.Text" xml:space="preserve">
-    <value>Arm L2</value>
+  <data name="btnFixCam.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;checkMPLeftFoot.Parent" xml:space="preserve">
     <value>groupMP</value>
   </data>
-  <data name="&gt;&gt;btnAdvShRemove.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="buttonATRShowAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 23</value>
   </data>
-  <data name="comboBlackInput.Size" type="System.Drawing.Size, System.Drawing">
-    <value>283, 21</value>
+  <data name="&gt;&gt;buttonATRHideAll.Parent" xml:space="preserve">
+    <value>groupAdvancedTexture</value>
   </data>
-  <data name="&gt;&gt;groupBlackTextures.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnRemoveSplashes.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnRemoveWaterEffects.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnRemoveSparkles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 19</value>
+  <data name="checkMPLeftHand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 194</value>
   </data>
   <data name="btnFixCam.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 23</value>
   </data>
-  <data name="checkMPLegR2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="updatesrefreshToolStripMenuItem.Text" xml:space="preserve">
+    <value>Refresh</value>
   </data>
-  <data name="&gt;&gt;btnRemoveSplashes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;checkMPLeftHand.Name" xml:space="preserve">
+    <value>checkMPLeftHand</value>
   </data>
-  <data name="&gt;&gt;checkMPLegL2.Name" xml:space="preserve">
-    <value>checkMPLegL2</value>
+  <data name="&gt;&gt;checkMPHead.Name" xml:space="preserve">
+    <value>checkMPHead</value>
   </data>
-  <data name="&gt;&gt;btnSmoke.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupMPHideAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonATRHideAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 77</value>
   </data>
   <data name="checkMPArmL1.Text" xml:space="preserve">
     <value>Arm L1</value>
   </data>
-  <data name="checkMPArmR1.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;btnRemoveBubbles.Parent" xml:space="preserve">
-    <value>groupAdvancedTexture</value>
+  <data name="groupStarsAppearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 401</value>
   </data>
   <data name="&gt;&gt;groupMP.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1798,11 +1885,14 @@ Head
   <data name="checkMPArmL2.Location" type="System.Drawing.Point, System.Drawing">
     <value>204, 171</value>
   </data>
-  <data name="groupMP.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="checkMPRightHand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 194</value>
   </data>
-  <data name="&gt;&gt;checkMPArmL1.Name" xml:space="preserve">
-    <value>checkMPArmL1</value>
+  <data name="buttonATRShow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 48</value>
+  </data>
+  <data name="&gt;&gt;checkNoShadowSimple.Parent" xml:space="preserve">
+    <value>groupMain</value>
   </data>
   <data name="groupStarsAppearance.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1810,14 +1900,11 @@ Head
   <data name="checkMPLegR1.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
-  <data name="btnRemoveBubbles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 48</value>
-  </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
+  <data name="btnFixBlackTextures.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="checkNoShadowSimple.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1828,11 +1915,17 @@ Head
   <data name="checkMPArmL2.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 17</value>
   </data>
+  <data name="&gt;&gt;buttonATRShow.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="btnAppearCollected.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 26</value>
   </data>
-  <data name="&gt;&gt;btnRemoveSparkles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;buttonATRShow.Name" xml:space="preserve">
+    <value>buttonATRShow</value>
+  </data>
+  <data name="checkNoHeadRotations.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;groupMPShowAll.ZOrder" xml:space="preserve">
     <value>16</value>

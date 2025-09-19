@@ -1,111 +1,42 @@
-﻿using System;
+﻿using M64MM.Utils;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Net.Sockets;
+using System.Net.Http;
 using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using M64MM.Utils;
+using TinyHugeTweaks.Controls.kataraktaTreeView;
+using TinyHugeTweaks.Properties;
 
 namespace TinyHugeTweaks
 {
     public partial class mainForm : Form
     {
+        public class RAMApplyItem
+        {
+            public byte[] Pixels { get; set; }
+            public uint SegAddress { get; set; }
+        }
+
+        string IsLatestVersion = "Unknown";
+        string LatestVersion = "Unknown";
+        static string CreatorName = "vazhka-dolya";
+        static string AddonLinkName = "TinyHugeTweaks";
+        static string AddonReleaseName = "Tiny-Huge Tweaks";
+
+        public bool isSelecting = false;
+        public static string TinyHugeTweaksPath = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location) + "\\Addons\\TinyHugeTweaks\\";
 
         static frmAbout about = new frmAbout();
 
-        /*
-        (0) Solid RGBA texture without fog (FC 12 7E 24 FF FF F9 FC;
-                                            24 7E 12 FC FC F9 FF FF;
-                                            FF FF F9 FC FC 12 7E 24)
-
-        (1) Alpha RGBA texture without fog (FC 12 18 24 FF 33 FF FF;
-                                            24 18 12 FC FF FF 33 FF;
-                                            FF 33 FF FF FC 12 18 24)
-
-        (2) Solid RGBA texture with fog (FC 12 7F FF FF FF F8 38;
-                                         FF 7F 12 FC 38 F8 FF FF;
-                                         FF FF F8 38 FC 12 7F FF)
-
-        (3) Alpha RGBA texture with fog (FC FF FF FF FF FC F2 38;
-                                         FF FF FF FC 38 F2 FC FF;
-                                         FF FC F2 38 FC FF FF FF)
-        */
-
         public ReadOnlyCollection<ulong> ColorCombinerCommands = new ReadOnlyCollection<ulong>(new ulong[] { 0xFFFFF9FCFC127E24, 0xFF33FFFFFC121824, 0xFFFFF838FC127FFF, 0xFFFCF238FCFFFFFF });
-
-        /*
-        8008C520 00B8 — left hand closed
-
-        8008D088 00B8 — right hand closed
-
-        8008B8D8 00B8 — core
-
-        8008BE08 00B8 — left arm 1
-
-        8008CA18 00B8 — right arm 1
-
-        8008D3F0 00B8 — left leg 1
-
-        8008DBE8 00B8 — right leg 1
-
-        8008E118 00B8 — right foot
-
-        8008D8D0 00B8 — left foot
-
-        80093278 00B8 — idk
-
-        80093470 00B8 — idk
-
-        80093B70 00B8 — idk
-
-        80094790 00B8 — idk
-
-        80094CF8 00B8 — idk
-
-        8008D540 00B8 — left leg 2
-
-        8008DE00 00B8 — right leg 2
-
-        800939F0 00B8 — idk
-
-        80094110 00B8 — idk
-
-        80093578 00B8 — idk
-
-        80093C78 00B8 — idk
-
-        8008BF20 00B8 — left arm 2
-
-        8008CB30 00B8 — right arm 2
-
-        800942F0 00B8 — idk
-
-        80094A38 00B8 — idk
-
-        80094930 00B8 — idk
-
-        80094470 00B8 — idk
-
-        8008EB50 00B8 — remove torso buttons
-
-        8008EF80 00B8 — remove torso shirt
-
-        8008EBB0 00B8 — remove torso overalls
-
-        80095290 00B8 — idk
-
-        800954D8 00B8 — idk
-
-        800952E0 00B8 — idk
-        */
 
         public byte[][] MPWriteStates = { new byte[] { 0xB8 } /*Disable*/, new byte[] { 0x06 } /*Enable 1*/, new byte[] { 0xBF } /*Enable 2*/ };
         public ReadOnlyCollection<uint> MPHeadAddresses = new ReadOnlyCollection<uint>(new uint[] { 0x90610, 0x90700, 0x907F0, 0x908E0, 0x909D0, 0x90AC0, 0x90BB0, 0x90CA0 });
@@ -125,44 +56,6 @@ namespace TinyHugeTweaks
         public ReadOnlyCollection<uint> MPTorsoAddresses1 = new ReadOnlyCollection<uint>(new uint[] { 0x8EF80 });
         public ReadOnlyCollection<uint> MPTorsoAddresses2 = new ReadOnlyCollection<uint>(new uint[] { 0x8EB50, 0x8EBB0 });
 
-        /*
-        0F0F0F0F 0F0F0F0F 0F0F0F0F 0E0B0400
-        0F0F0F0F 0F0F0F0F 0F0F0F0F 0E0B0400
-        0F0F0F0F 0F0F0F0F 0F0F0F0F 0E0A0300
-        0F0F0F0F 0F0F0F0F 0F0F0F0F 0D090200
-        0F0F0F0F 0F0F0F0F 0F0F0F0E 0B060000
-        0F0F0F0F 0F0F0F0F 0F0F0F0D 09040000
-        0F0F0F0F 0F0F0F0F 0F0F0E0B 06020000
-        0F0F0F0F 0F0F0F0F 0F0E0D09 04010000
-        0F0F0F0F 0F0F0F0F 0F0D0A05 02000000
-        0F0F0F0F 0F0F0F0E 0D0A0502 00000000
-        0F0F0F0F 0F0F0E0D 0A050201 00000000
-        0F0F0F0F 0E0D0B09 05020100 00000000
-        0E0E0E0D 0B090604 02000000 00000000
-        0B0B0A09 06040201 00000000 00000000
-        04040403 02010000 00000000 00000000
-        00000000 00000000 00000000 00000000
-        */
-        static byte[] RoundShadowTexture = new byte[]
-        {
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0E, 0x0B, 0x04, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0E, 0x0B, 0x04, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0E, 0x0A, 0x03, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0D, 0x09, 0x02, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0E, 0x0B, 0x06, 0x00, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0D, 0x09, 0x04, 0x00, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0E, 0x0B, 0x06, 0x02, 0x00, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0E, 0x0D, 0x09, 0x04, 0x01, 0x00, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0D, 0x0A, 0x05, 0x02, 0x00, 0x00, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0E, 0x0D, 0x0A, 0x05, 0x02, 0x00, 0x00, 0x00, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0F, 0x0E, 0x0D, 0x0A, 0x05, 0x02, 0x01, 0x00, 0x00, 0x00, 0x00,
-            0x0F, 0x0F, 0x0F, 0x0F, 0x0E, 0x0D, 0x0B, 0x09, 0x05, 0x02, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00,
-            0x0E, 0x0E, 0x0E, 0x0D, 0x0B, 0x09, 0x06, 0x04, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
-            0x0B, 0x0B, 0x0A, 0x09, 0x06, 0x04, 0x02, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
-            0x04, 0x04, 0x04, 0x03, 0x02, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
-            0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
-        };
-
         public mainForm()
         {
             this.KeyPreview = true;
@@ -171,13 +64,305 @@ namespace TinyHugeTweaks
 
             InitializeComponent();
 
+            this.Load += mainForm_Load;
             this.Text = $"Tiny-Huge Tweaks {ProductVersion}";
-            this.ClientSize = new System.Drawing.Size(355, 374); //355; 374
 
             StarFill();
 
             comboBlackInput.SelectedIndex = 2;
             comboBlackOutput.SelectedIndex = 1;
+
+            SetUpTreeViewDPI();
+            LoadATR();
+
+            AdjustButtonImageDPI();
+        }
+
+        private async void mainForm_Load(object sender, EventArgs e)
+        {
+            await CheckForUpdates();
+        }
+
+        private double CalculateDPIDifference()
+        {
+            // 96 is 1080p DPI
+            return (double)(this.DeviceDpi - 96) / Math.Abs(96) + 1;
+        }
+
+        private int AdjustDPIInt(int ValueToAdjust)
+        {
+            return (int)(ValueToAdjust * CalculateDPIDifference());
+        }
+
+        private IEnumerable<Button> GetButtonsWithImages(Control parent)
+        {
+            foreach (Control control in parent.Controls)
+            {
+                if (control is Button button && button.Image != null)
+                    yield return button;
+
+                foreach (var childbutton in GetButtonsWithImages(control))
+                    yield return childbutton;
+            }
+        }
+
+        private void AdjustButtonImageDPI()
+        {
+            // Upscale button icons for higher DPI
+            // Because WinForms doesn't want to do it by itself
+            if (this.DeviceDpi > 96f)
+            {
+                foreach (var button in GetButtonsWithImages(this))
+                {
+                    Bitmap originalIcon = new Bitmap(button.Image);
+                    float scaleFactor = (float)(this.DeviceDpi - 96) / Math.Abs(96) + 1;
+                    int newWidth = (int)(originalIcon.Width * scaleFactor);
+                    int newHeight = (int)(originalIcon.Height * scaleFactor);
+
+                    Bitmap scaled = new Bitmap(newWidth, newHeight);
+                    using (Graphics g = Graphics.FromImage(scaled))
+                    {
+                        // NearestNeighbor looks ugly with DPIs that are
+                        // increments of 25% but not of 50% (e. g. 125%, 175% etc.),
+                        // and not scaling them up at all also looks bad,
+                        // so we'll set HighQualityBicubic for those.
+                        float remainder = scaleFactor % 1.0f;
+                        if (Math.Abs(remainder - 0.25f) < 0.01f || Math.Abs(remainder - 0.75f) < 0.01f)
+                            g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+                        else g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
+
+                        g.DrawImage(originalIcon, 0, 0, newWidth, newHeight);
+                    }
+
+                    button.Image = scaled;
+                }
+            }
+        }
+
+        private void SetUpTreeViewDPI()
+        {
+            //treeView1.ImageList.ImageSize = new Size(AdjustDPIInt(16), AdjustDPIInt(16));
+            treeView1.Font = new Font("Microsoft Sans Serif",
+                // A bit complex but ensures that the size is good on all DPIs
+                AdjustDPIInt(9) + (float)0.6 - (float)((CalculateDPIDifference() - 1) * 5),
+                GraphicsUnit.Point);
+            treeView1.ItemHeight = AdjustDPIInt(20);
+        }
+
+        private void LoadATR()
+        {
+            TreeNode CacheShadowRound = new TreeNode(Resources.CacheShadowRound);
+            CacheShadowRound.Tag = "shadow_round";
+            treeView1.Nodes.Add(CacheShadowRound);
+
+            TreeNode CacheShadowSquare = new TreeNode(Resources.CacheShadowSquare);
+            CacheShadowSquare.Tag = "shadow_square";
+            treeView1.Nodes.Add(CacheShadowSquare);
+
+            TreeNode CacheDust = new TreeNode(Resources.CacheDust);
+            CacheDust.Tag = "dust";
+            treeView1.Nodes.Add(CacheDust);
+
+            TreeNode CacheSnowParticle = new TreeNode(Resources.CacheSnowParticle);
+            CacheSnowParticle.Tag = "snow_particle";
+            treeView1.Nodes.Add(CacheSnowParticle);
+
+            TreeNode CacheWaterParticle = new TreeNode(Resources.CacheWaterParticle);
+            CacheWaterParticle.Tag = "water_particle";
+            treeView1.Nodes.Add(CacheWaterParticle);
+
+            TreeNode CacheWater = new TreeNode(Resources.CacheWater);
+            CacheWater.Tag = "water";
+            treeView1.Nodes.Add(CacheWater);
+
+            TreeNode CacheWaterSplash = new TreeNode(Resources.CacheWaterSplash);
+            CacheWaterSplash.Tag = "water_splash";
+            treeView1.Nodes.Add(CacheWaterSplash);
+
+            TreeNode CacheBubble = new TreeNode(Resources.CacheBubble);
+            CacheBubble.Tag = "bubble";
+            treeView1.Nodes.Add(CacheBubble);
+
+            TreeNode CacheExplosion = new TreeNode(Resources.CacheExplosion);
+            CacheExplosion.Tag = "explosion";
+            treeView1.Nodes.Add(CacheExplosion);
+
+            TreeNode CacheSparkle = new TreeNode(Resources.CacheSparkle);
+            CacheSparkle.Tag = "sparkle";
+            treeView1.Nodes.Add(CacheSparkle);
+
+            TreeNode CacheButterfly = new TreeNode(Resources.CacheButterfly);
+            CacheButterfly.Tag = "butterfly";
+            treeView1.Nodes.Add(CacheButterfly);
+
+            TreeNode CacheLeaf = new TreeNode(Resources.CacheLeaf);
+            CacheLeaf.Tag = "leaf";
+            treeView1.Nodes.Add(CacheLeaf);
+
+            TreeNode CacheCoin = new TreeNode(Resources.CacheCoin);
+            CacheCoin.Tag = "coin";
+            treeView1.Nodes.Add(CacheCoin);
+        }
+
+        private void ATRHide(TreeNode node)
+        {
+            if (node != null)
+            {
+                string filePath = Path.Combine
+                    (TinyHugeTweaksPath,
+                    $"ImageData\\{node.Tag}_empty.kcscache.bin");
+                ApplyCache(filePath);
+            }
+        }
+
+        private void ATRShow(TreeNode node)
+        {
+            if (node != null)
+            {
+                string filePath = Path.Combine
+                    (TinyHugeTweaksPath,
+                    $"ImageData\\{node.Tag}.kcscache.bin");
+                ApplyCache(filePath);
+            }
+        }
+
+        private void ATRHideAll()
+        {
+            foreach (TreeNode node in treeView1.Nodes)
+            {
+                ATRHide(node);
+            }
+        }
+
+        private void ATRShowAll()
+        {
+            foreach (TreeNode node in treeView1.Nodes)
+            {
+                ATRShow(node);
+            }
+        }
+
+        private List<RAMApplyItem> CacheRead(string CachePath)
+        {
+            byte[] Cache = File.ReadAllBytes(CachePath);
+
+            List<RAMApplyItem> FoundCacheTextures = new List<RAMApplyItem>();
+
+            using (FileStream fs = new FileStream(CachePath, FileMode.Open, FileAccess.Read))
+            using (BinaryReader reader = new BinaryReader(fs))
+            {
+                while (reader.BaseStream.Position < reader.BaseStream.Length)
+                {
+                    // Get first four bytes as the address
+                    uint address = reader.ReadUInt32();
+
+                    // Get the next four bytes as the length (aka the amount of bytes in the texture)
+                    uint length = reader.ReadUInt32();
+
+                    // Give an error if the specified length is longer than the rest of the file
+                    if (reader.BaseStream.Position + length > reader.BaseStream.Length)
+                    {
+                        throw new Exception
+                            ("Invalid cache file: Specified length of the last texture is longer than the rest of the file.");
+                    }
+
+                    // Treat the specified amount (length) of bytes as the texture.
+                    byte[] TextureData = reader.ReadBytes((int)length);
+                    FoundCacheTextures.Add(new RAMApplyItem
+                    {
+                        Pixels = TextureData,
+                        SegAddress = BitConverter.ToUInt32(Core.SwapEndian(BitConverter.GetBytes(address), 4), 0)
+                    });
+                }
+            }
+
+            return FoundCacheTextures;
+        }
+
+        private void ApplyCache(string CachePath)
+        {
+            {
+                List<RAMApplyItem> CurrentCache = CacheRead(CachePath);
+                foreach (var item in CurrentCache)
+                {
+                    ApplyTextureRAM(item.Pixels, item.SegAddress);
+                }
+            }
+        }
+
+        public void ApplyTextureRAM(byte[] Pixels, uint SegAddress)
+        {
+            Core.WriteBytes(Core.SegmentedToVirtual(SegAddress), Pixels);
+        }
+
+        private void UpdatesButtonPress()
+        {
+            switch (IsLatestVersion)
+            {
+                case "True":
+                    Process.Start($"https://github.com/{CreatorName}/{AddonLinkName}/releases");
+                    break;
+                case "False":
+                    Process.Start($"https://github.com/{CreatorName}/{AddonLinkName}/releases/latest");
+                    break;
+                default:
+                    DialogResult result = MessageBox.Show(
+                        Resources.updates_unknown_elaborate,
+                        Resources.updates_unknown_string,
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Question
+                    );
+
+                    if (result == DialogResult.Yes)
+                    {
+                        Process.Start($"https://github.com/{CreatorName}/{AddonLinkName}/releases/latest");
+                    }
+                    break;
+            }
+        }
+
+        private async Task CheckForUpdates()
+        {
+            updatesToolStripMenuItem.Image = Resources.updates_unknown;
+            updatesToolStripMenuItem.Text = Resources.updates_checking_string;
+
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    client.DefaultRequestHeaders.Add("User-Agent", $"{AddonLinkName}")
+;
+                    var LatestResponse = await client.GetStringAsync($"https://api.github.com/repos/{CreatorName}/{AddonLinkName}/releases/latest");
+
+                    JObject json = JObject.Parse(LatestResponse);
+                    LatestVersion = (string)json["name"];
+
+                    if ($"{AddonReleaseName} v" + ProductVersion == LatestVersion)
+                        IsLatestVersion = "True";
+                    else IsLatestVersion = "False";
+                }
+            }
+            catch
+            {
+                IsLatestVersion = "Unknown";
+                LatestVersion = "Unknown";
+            }
+
+            switch (IsLatestVersion)
+            {
+                case "True":
+                    updatesToolStripMenuItem.Image = Resources.updates_latest;
+                    updatesToolStripMenuItem.Text = Resources.updates_latest_string;
+                    break;
+                case "False":
+                    updatesToolStripMenuItem.Image = Resources.updates_outdated;
+                    updatesToolStripMenuItem.Text = Resources.updates_outdated_string;
+                    break;
+                default:
+                    updatesToolStripMenuItem.Image = Resources.updates_unknown;
+                    updatesToolStripMenuItem.Text = Resources.updates_unknown_string;
+                    break;
+            }
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -193,44 +378,25 @@ namespace TinyHugeTweaks
         }
 
         public void BlackBarsEdit()
-        {/*
-            Core.WriteBytes(Core.BaseAddress + 0x2473A0 + 7, new byte[] { 0xBC });
-            Core.WriteBytes(Core.BaseAddress + 0x2473B0 + 3, new byte[] { 0x00  });
-            Core.WriteBytes(Core.BaseAddress + 0x247490 + 3, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x2474A0 + 3, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x2475A0 + 3, new byte[] { 0xBC });
-            Core.WriteBytes(Core.BaseAddress + 0x2475A8 + 7, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x247D18 + 4, new byte[] { 0x00, 0x00, 0x00, 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B468 + 7, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B478 + 7, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B4F8 + 3, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B508 + 3, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B580 + 7, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B590 + 7, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x27C998 + 7, new byte[] { 0xBC });
-            Core.WriteBytes(Core.BaseAddress + 0x27C9A8 + 3, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x2DA7B0 + 7, new byte[] { 0x50 });
-            Core.WriteBytes(Core.BaseAddress + 0x2DA7B8 + 3, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x2DA7A8 + 4, new byte[] { 0x00, 0x00, 0x00, 0x00 });*/
-
-            Core.WriteBytes(Core.BaseAddress + 0x2473A0 + 4, new byte[] { 0xBC });
-            Core.WriteBytes(Core.BaseAddress + 0x2473B0 + 0, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x247490 + 0, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x2474A0 + 0, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x2475A0 + 0, new byte[] { 0xBC });
-            Core.WriteBytes(Core.BaseAddress + 0x2475A8 + 4, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x247D18 + 4, new byte[] { 0x00, 0x00, 0x00, 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B468 + 4, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B478 + 4, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B4F8 + 0, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B508 + 0, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B580 + 4, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x27B590 + 4, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x27C998 + 4, new byte[] { 0xBC });
-            Core.WriteBytes(Core.BaseAddress + 0x27C9A8 + 0, new byte[] { 0x00 });
-            Core.WriteBytes(Core.BaseAddress + 0x2DA7B0 + 4, new byte[] { 0x50 });
-            Core.WriteBytes(Core.BaseAddress + 0x2DA7B8 + 0, new byte[] { 0xC0 });
-            Core.WriteBytes(Core.BaseAddress + 0x2DA7A8 + 4, new byte[] { 0x00, 0x00, 0x00, 0x00 });
+        {
+            Core.WriteBytes(Core.BaseAddress + 0x2473A4, new byte[] { 0xBC });
+            Core.WriteBytes(Core.BaseAddress + 0x2473B0, new byte[] { 0x00 });
+            Core.WriteBytes(Core.BaseAddress + 0x247490, new byte[] { 0x00 });
+            Core.WriteBytes(Core.BaseAddress + 0x2474A0, new byte[] { 0xC0 });
+            Core.WriteBytes(Core.BaseAddress + 0x2475A0, new byte[] { 0xBC });
+            Core.WriteBytes(Core.BaseAddress + 0x2475AC, new byte[] { 0x00 });
+            Core.WriteBytes(Core.BaseAddress + 0x247D1C, new byte[] { 0x00, 0x00, 0x00, 0x00 });
+            Core.WriteBytes(Core.BaseAddress + 0x27B46C, new byte[] { 0x00 });
+            Core.WriteBytes(Core.BaseAddress + 0x27B47C, new byte[] { 0xC0 });
+            Core.WriteBytes(Core.BaseAddress + 0x27B4F8, new byte[] { 0x00 });
+            Core.WriteBytes(Core.BaseAddress + 0x27B508, new byte[] { 0xC0 });
+            Core.WriteBytes(Core.BaseAddress + 0x27B584, new byte[] { 0x00 });
+            Core.WriteBytes(Core.BaseAddress + 0x27B594, new byte[] { 0xC0 });
+            Core.WriteBytes(Core.BaseAddress + 0x27C99C, new byte[] { 0xBC });
+            Core.WriteBytes(Core.BaseAddress + 0x27C9A8, new byte[] { 0x00 });
+            Core.WriteBytes(Core.BaseAddress + 0x2DA7B4, new byte[] { 0x50 });
+            Core.WriteBytes(Core.BaseAddress + 0x2DA7B8, new byte[] { 0xC0 });
+            Core.WriteBytes(Core.BaseAddress + 0x2DA7AC, new byte[] { 0x00, 0x00, 0x00, 0x00 });
         }
 
         public void MPEdit(ReadOnlyCollection<uint> AddressList, bool Show, bool OtherShow)
@@ -256,7 +422,8 @@ namespace TinyHugeTweaks
 
         public void StarFill()
         {
-            string filePath = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location) + "/Addons/TinyHugeTweaks/starAddresses.config";
+            string filePath = Path.GetDirectoryName
+                (Assembly.GetEntryAssembly().Location) + "/Addons/TinyHugeTweaks/starAddresses.config";
             string[] lines = File.ReadAllLines(filePath);
             List<List<string>> entries = new List<List<string>>();
 
@@ -302,87 +469,6 @@ namespace TinyHugeTweaks
                 default:
                     Core.WriteBytes(Core.BaseAddress + 0xF0860 + 2, new byte[] { 0x28, 0x00 });
                     break;
-            }
-        }
-
-        private void ShadowSwap()
-        {
-            for (int i = 0; i < 256; i++) // A 16x16 IA8 Texture
-            {
-                Core.WriteBytes(Core.SegmentedToVirtual(0x020120B8) + i, new byte[] { 0x00 });
-            }
-        }
-
-        private void DustSwap()
-        {
-            for (int i = 0; i < 2048; i++) // A 32x32 IA16 Texture
-            {
-                Core.WriteBytes(Core.SegmentedToVirtual(0x03000080) + i, new byte[] { 0x00 });
-
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0401DEA0) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0401E6A0) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0401EEA0) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0401F6A0) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0401FEA0) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x040206A0) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04020EA0) + i, new byte[] { 0x00 });
-            }
-        }
-
-        private void SparkleSwap()
-        {
-            for (int i = 0; i < 2048; i++) // A 32x32 RGBA16 Texture
-            {
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04029C90) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04029490) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04028C90) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04028490) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04027C90) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04027490) + i, new byte[] { 0x00 });
-            }
-        }
-
-        private void BubbleSwap()
-        {
-            for (int i = 0; i < 2048; i++) // A 32x32 RGBA16 Texture
-            {
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0401CD60) + i, new byte[] { 0x00 });
-            }
-        }
-
-        private void WaterSurfaceSwap()
-        {
-            for (int i = 0; i < 2048; i++) // A 32x32 IA16 Texture
-            {
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04022148) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04022948) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04023148) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04023948) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04024148) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04024948) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04025358) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04025B58) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04026358) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04026B58) + i, new byte[] { 0x00 });
-            }
-        }
-
-        private void WaterSplashSwap()
-        {
-            for (int i = 0; i < 4096; i++) // A 32x64 IA16 Texture
-            {
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0402A5C8) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0402B5C8) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0402C5C8) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0402D5C8) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0402E5C8) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x0402F5C8) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x040305C8) + i, new byte[] { 0x00 });
-                Core.WriteBytes(Core.SegmentedToVirtual(0x040315C8) + i, new byte[] { 0x00 });
-            }
-            for (int i = 0; i < 512; i++) // A 16x16 IA16 Texture
-            {
-                Core.WriteBytes(Core.SegmentedToVirtual(0x04032780) + i, new byte[] { 0x00 });
             }
         }
 
@@ -557,23 +643,23 @@ namespace TinyHugeTweaks
         }
 
         private void groupMPShowAll_Click(object sender, EventArgs e)
-        {/*
-            MPEdit(MPHeadAddresses, true, false);
-            MPEdit(MPTorsoAddresses1, true, false);
-            MPEdit(MPTorsoAddresses2, true, true);
-            MPEdit(MPCoreAddresses, true, false);
-            MPEdit(MPArmL1Addresses, true, false);
-            MPEdit(MPArmL2Addresses, true, true);
-            MPEdit(MPLeftHandAddresses, true, false);
-            MPEdit(MPLegL1Addresses, true, false);
-            MPEdit(MPLegL2Addresses, true, true);
-            MPEdit(MPLeftFootAddresses, true, false);
-            MPEdit(MPArmR1Addresses, true, false);
-            MPEdit(MPArmR2Addresses, true, true);
-            MPEdit(MPRightHandAddresses, true, false);
-            MPEdit(MPLegR1Addresses, true, false);
-            MPEdit(MPLegR2Addresses, true, true);
-            MPEdit(MPRightFootAddresses, true, false);*/
+        {
+            // Uncheck them first in case they were already checked
+            checkMPHead.Checked = false;
+            checkMPTorso.Checked = false;
+            checkMPCore.Checked = false;
+            checkMPArmL1.Checked = false;
+            checkMPArmL2.Checked = false;
+            checkMPLeftHand.Checked = false;
+            checkMPLegL1.Checked = false;
+            checkMPLegL2.Checked = false;
+            checkMPLeftFoot.Checked = false;
+            checkMPArmR1.Checked = false;
+            checkMPArmR2.Checked = false;
+            checkMPRightHand.Checked = false;
+            checkMPLegR1.Checked = false;
+            checkMPLegR2.Checked = false;
+            checkMPRightFoot.Checked = false;
 
             checkMPHead.Checked = true;
             checkMPTorso.Checked = true;
@@ -593,23 +679,23 @@ namespace TinyHugeTweaks
         }
 
         private void groupMPHideAll_Click(object sender, EventArgs e)
-        {/*
-            MPEdit(MPHeadAddresses, false, false);
-            MPEdit(MPTorsoAddresses1, false, false);
-            MPEdit(MPTorsoAddresses2, false, true);
-            MPEdit(MPCoreAddresses, false, false);
-            MPEdit(MPArmL1Addresses, false, false);
-            MPEdit(MPArmL2Addresses, false, true);
-            MPEdit(MPLeftHandAddresses, false, false);
-            MPEdit(MPLegL1Addresses, false, false);
-            MPEdit(MPLegL2Addresses, false, true);
-            MPEdit(MPLeftFootAddresses, false, false);
-            MPEdit(MPArmR1Addresses, false, false);
-            MPEdit(MPArmR2Addresses, false, true);
-            MPEdit(MPRightHandAddresses, false, false);
-            MPEdit(MPLegR1Addresses, false, false);
-            MPEdit(MPLegR2Addresses, false, true);
-            MPEdit(MPRightFootAddresses, false, false);*/
+        {
+            // Check them first in case they were already uchecked
+            checkMPHead.Checked = true;
+            checkMPTorso.Checked = true;
+            checkMPCore.Checked = true;
+            checkMPArmL1.Checked = true;
+            checkMPArmL2.Checked = true;
+            checkMPLeftHand.Checked = true;
+            checkMPLegL1.Checked = true;
+            checkMPLegL2.Checked = true;
+            checkMPLeftFoot.Checked = true;
+            checkMPArmR1.Checked = true;
+            checkMPArmR2.Checked = true;
+            checkMPRightHand.Checked = true;
+            checkMPLegR1.Checked = true;
+            checkMPLegR2.Checked = true;
+            checkMPRightFoot.Checked = true;
 
             checkMPHead.Checked = false;
             checkMPTorso.Checked = false;
@@ -638,36 +724,6 @@ namespace TinyHugeTweaks
             BlackBarsEdit();
         }
 
-        private void btnAdvShRemove_Click(object sender, EventArgs e)
-        {
-            ShadowSwap();
-        }
-
-        private void btnRemoveDust_Click(object sender, EventArgs e)
-        {
-            DustSwap();
-        }
-
-        private void btnRemoveSparkles_Click(object sender, EventArgs e)
-        {
-            SparkleSwap();
-        }
-
-        private void btnRemoveBubbles_Click(object sender, EventArgs e)
-        {
-            BubbleSwap();
-        }
-
-        private void btnRemoveWaterEffects_Click(object sender, EventArgs e)
-        {
-            WaterSurfaceSwap();
-        }
-
-        private void btnRemoveSplashes_Click(object sender, EventArgs e)
-        {
-            WaterSplashSwap();
-        }
-
         private void btnSmoke_Click(object sender, EventArgs e)
         {
             FixSmokeTexture();
@@ -688,6 +744,56 @@ namespace TinyHugeTweaks
                 btnAppearUncollected.Image = Properties.Resources.Rev11_Star;
             }
 
+        }
+
+        private async void updatesrefreshToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            await CheckForUpdates();
+        }
+
+        private void updatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UpdatesButtonPress();
+        }
+
+        private void buttonATRHide_Click(object sender, EventArgs e)
+        {
+            ATRHide(treeView1.SelectedNode);
+        }
+
+        private void buttonATRShow_Click(object sender, EventArgs e)
+        {
+            ATRShow(treeView1.SelectedNode);
+        }
+
+        protected void treeView1_BeforeSelect(object sender, TreeViewCancelEventArgs e)
+        {
+            if (isSelecting) // Should prevent the method from repeating when it's not needed
+            {
+                return;
+            }
+
+            isSelecting = true;
+
+            e.Cancel = true;
+
+            kataraktaTreeView treeView = sender as kataraktaTreeView;
+
+            // The canceling and programmatic selecting are done because otherwise
+            // it would scroll to the selected node even when it's not needed
+            treeView.SelectedNode = e.Node;
+
+            isSelecting = false;
+        }
+
+        private void buttonATRHideAll_Click(object sender, EventArgs e)
+        {
+            ATRHideAll();
+        }
+
+        private void buttonATRShowAll_Click(object sender, EventArgs e)
+        {
+            ATRShowAll();
         }
     }
 }

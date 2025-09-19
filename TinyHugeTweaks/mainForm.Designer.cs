@@ -1,4 +1,5 @@
-﻿namespace TinyHugeTweaks
+﻿using TinyHugeTweaks.Controls.kataraktaTreeView;
+namespace TinyHugeTweaks
 {
     partial class mainForm
     {
@@ -31,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updatesrefreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupStarsAppearance = new System.Windows.Forms.GroupBox();
             this.btnComboStarReload = new System.Windows.Forms.Button();
             this.comboBoxStar = new System.Windows.Forms.ComboBox();
@@ -47,7 +50,6 @@
             this.btnSmoke = new System.Windows.Forms.Button();
             this.btnBlackBars = new System.Windows.Forms.Button();
             this.checkNoShadowSimple = new System.Windows.Forms.CheckBox();
-            this.btnAdvShRemove = new System.Windows.Forms.Button();
             this.groupMP = new System.Windows.Forms.GroupBox();
             this.checkMPRightFoot = new System.Windows.Forms.CheckBox();
             this.checkMPLegR2 = new System.Windows.Forms.CheckBox();
@@ -68,11 +70,11 @@
             this.groupMPShowAll = new System.Windows.Forms.Button();
             this.pictureMP = new System.Windows.Forms.PictureBox();
             this.groupAdvancedTexture = new System.Windows.Forms.GroupBox();
-            this.btnRemoveSplashes = new System.Windows.Forms.Button();
-            this.btnRemoveWaterEffects = new System.Windows.Forms.Button();
-            this.btnRemoveBubbles = new System.Windows.Forms.Button();
-            this.btnRemoveSparkles = new System.Windows.Forms.Button();
-            this.btnRemoveDust = new System.Windows.Forms.Button();
+            this.buttonATRShowAll = new System.Windows.Forms.Button();
+            this.buttonATRHideAll = new System.Windows.Forms.Button();
+            this.buttonATRShow = new System.Windows.Forms.Button();
+            this.buttonATRHide = new System.Windows.Forms.Button();
+            this.treeView1 = new TinyHugeTweaks.Controls.kataraktaTreeView.kataraktaTreeView();
             this.menuStrip1.SuspendLayout();
             this.groupStarsAppearance.SuspendLayout();
             this.groupBlackTextures.SuspendLayout();
@@ -86,7 +88,9 @@
             // 
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutToolStripMenuItem});
+            this.aboutToolStripMenuItem,
+            this.updatesToolStripMenuItem,
+            this.updatesrefreshToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
             // 
             // aboutToolStripMenuItem
@@ -94,6 +98,23 @@
             resources.ApplyResources(this.aboutToolStripMenuItem, "aboutToolStripMenuItem");
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // updatesToolStripMenuItem
+            // 
+            resources.ApplyResources(this.updatesToolStripMenuItem, "updatesToolStripMenuItem");
+            this.updatesToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.updatesToolStripMenuItem.Image = global::TinyHugeTweaks.Properties.Resources.updates_unknown;
+            this.updatesToolStripMenuItem.Name = "updatesToolStripMenuItem";
+            this.updatesToolStripMenuItem.Click += new System.EventHandler(this.updatesToolStripMenuItem_Click);
+            // 
+            // updatesrefreshToolStripMenuItem
+            // 
+            resources.ApplyResources(this.updatesrefreshToolStripMenuItem, "updatesrefreshToolStripMenuItem");
+            this.updatesrefreshToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.updatesrefreshToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.updatesrefreshToolStripMenuItem.Image = global::TinyHugeTweaks.Properties.Resources.updates_refresh;
+            this.updatesrefreshToolStripMenuItem.Name = "updatesrefreshToolStripMenuItem";
+            this.updatesrefreshToolStripMenuItem.Click += new System.EventHandler(this.updatesrefreshToolStripMenuItem_Click);
             // 
             // groupStarsAppearance
             // 
@@ -225,13 +246,6 @@
             this.checkNoShadowSimple.Name = "checkNoShadowSimple";
             this.checkNoShadowSimple.UseVisualStyleBackColor = true;
             this.checkNoShadowSimple.CheckedChanged += new System.EventHandler(this.checkNoShadowSimple_CheckedChanged);
-            // 
-            // btnAdvShRemove
-            // 
-            resources.ApplyResources(this.btnAdvShRemove, "btnAdvShRemove");
-            this.btnAdvShRemove.Name = "btnAdvShRemove";
-            this.btnAdvShRemove.UseVisualStyleBackColor = true;
-            this.btnAdvShRemove.Click += new System.EventHandler(this.btnAdvShRemove_Click);
             // 
             // groupMP
             // 
@@ -431,49 +445,53 @@
             // groupAdvancedTexture
             // 
             resources.ApplyResources(this.groupAdvancedTexture, "groupAdvancedTexture");
-            this.groupAdvancedTexture.Controls.Add(this.btnRemoveSplashes);
-            this.groupAdvancedTexture.Controls.Add(this.btnRemoveWaterEffects);
-            this.groupAdvancedTexture.Controls.Add(this.btnRemoveBubbles);
-            this.groupAdvancedTexture.Controls.Add(this.btnRemoveSparkles);
-            this.groupAdvancedTexture.Controls.Add(this.btnRemoveDust);
-            this.groupAdvancedTexture.Controls.Add(this.btnAdvShRemove);
+            this.groupAdvancedTexture.Controls.Add(this.buttonATRShowAll);
+            this.groupAdvancedTexture.Controls.Add(this.buttonATRHideAll);
+            this.groupAdvancedTexture.Controls.Add(this.buttonATRShow);
+            this.groupAdvancedTexture.Controls.Add(this.buttonATRHide);
+            this.groupAdvancedTexture.Controls.Add(this.treeView1);
             this.groupAdvancedTexture.Name = "groupAdvancedTexture";
             this.groupAdvancedTexture.TabStop = false;
             // 
-            // btnRemoveSplashes
+            // buttonATRShowAll
             // 
-            resources.ApplyResources(this.btnRemoveSplashes, "btnRemoveSplashes");
-            this.btnRemoveSplashes.Name = "btnRemoveSplashes";
-            this.btnRemoveSplashes.UseVisualStyleBackColor = true;
-            this.btnRemoveSplashes.Click += new System.EventHandler(this.btnRemoveSplashes_Click);
+            resources.ApplyResources(this.buttonATRShowAll, "buttonATRShowAll");
+            this.buttonATRShowAll.Name = "buttonATRShowAll";
+            this.buttonATRShowAll.UseVisualStyleBackColor = true;
+            this.buttonATRShowAll.Click += new System.EventHandler(this.buttonATRShowAll_Click);
             // 
-            // btnRemoveWaterEffects
+            // buttonATRHideAll
             // 
-            resources.ApplyResources(this.btnRemoveWaterEffects, "btnRemoveWaterEffects");
-            this.btnRemoveWaterEffects.Name = "btnRemoveWaterEffects";
-            this.btnRemoveWaterEffects.UseVisualStyleBackColor = true;
-            this.btnRemoveWaterEffects.Click += new System.EventHandler(this.btnRemoveWaterEffects_Click);
+            resources.ApplyResources(this.buttonATRHideAll, "buttonATRHideAll");
+            this.buttonATRHideAll.Name = "buttonATRHideAll";
+            this.buttonATRHideAll.UseVisualStyleBackColor = true;
+            this.buttonATRHideAll.Click += new System.EventHandler(this.buttonATRHideAll_Click);
             // 
-            // btnRemoveBubbles
+            // buttonATRShow
             // 
-            resources.ApplyResources(this.btnRemoveBubbles, "btnRemoveBubbles");
-            this.btnRemoveBubbles.Name = "btnRemoveBubbles";
-            this.btnRemoveBubbles.UseVisualStyleBackColor = true;
-            this.btnRemoveBubbles.Click += new System.EventHandler(this.btnRemoveBubbles_Click);
+            resources.ApplyResources(this.buttonATRShow, "buttonATRShow");
+            this.buttonATRShow.Name = "buttonATRShow";
+            this.buttonATRShow.UseVisualStyleBackColor = true;
+            this.buttonATRShow.Click += new System.EventHandler(this.buttonATRShow_Click);
             // 
-            // btnRemoveSparkles
+            // buttonATRHide
             // 
-            resources.ApplyResources(this.btnRemoveSparkles, "btnRemoveSparkles");
-            this.btnRemoveSparkles.Name = "btnRemoveSparkles";
-            this.btnRemoveSparkles.UseVisualStyleBackColor = true;
-            this.btnRemoveSparkles.Click += new System.EventHandler(this.btnRemoveSparkles_Click);
+            resources.ApplyResources(this.buttonATRHide, "buttonATRHide");
+            this.buttonATRHide.Name = "buttonATRHide";
+            this.buttonATRHide.UseVisualStyleBackColor = true;
+            this.buttonATRHide.Click += new System.EventHandler(this.buttonATRHide_Click);
             // 
-            // btnRemoveDust
+            // treeView1
             // 
-            resources.ApplyResources(this.btnRemoveDust, "btnRemoveDust");
-            this.btnRemoveDust.Name = "btnRemoveDust";
-            this.btnRemoveDust.UseVisualStyleBackColor = true;
-            this.btnRemoveDust.Click += new System.EventHandler(this.btnRemoveDust_Click);
+            resources.ApplyResources(this.treeView1, "treeView1");
+            this.treeView1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.treeView1.FullRowSelect = true;
+            this.treeView1.HideSelection = false;
+            this.treeView1.HotTracking = true;
+            this.treeView1.ItemHeight = 18;
+            this.treeView1.Name = "treeView1";
+            this.treeView1.ShowLines = false;
+            this.treeView1.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView1_BeforeSelect);
             // 
             // mainForm
             // 
@@ -540,16 +558,17 @@
         private System.Windows.Forms.CheckBox checkMPLeftFoot;
         private System.Windows.Forms.CheckBox checkMPLegL2;
         private System.Windows.Forms.CheckBox checkMPLegL1;
-        private System.Windows.Forms.Button btnAdvShRemove;
         private System.Windows.Forms.CheckBox checkNoShadowSimple;
         private System.Windows.Forms.Button btnBlackBars;
         private System.Windows.Forms.GroupBox groupAdvancedTexture;
-        private System.Windows.Forms.Button btnRemoveDust;
-        private System.Windows.Forms.Button btnRemoveSparkles;
-        private System.Windows.Forms.Button btnRemoveBubbles;
-        private System.Windows.Forms.Button btnRemoveWaterEffects;
-        private System.Windows.Forms.Button btnRemoveSplashes;
         private System.Windows.Forms.Button btnSmoke;
+        private System.Windows.Forms.ToolStripMenuItem updatesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem updatesrefreshToolStripMenuItem;
+        private kataraktaTreeView treeView1;
+        private System.Windows.Forms.Button buttonATRShow;
+        private System.Windows.Forms.Button buttonATRHide;
+        private System.Windows.Forms.Button buttonATRShowAll;
+        private System.Windows.Forms.Button buttonATRHideAll;
     }
 }
 

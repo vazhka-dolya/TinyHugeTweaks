@@ -124,27 +124,17 @@
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>Об адд-оне</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnComboStarReload.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="groupStarsAppearance.Text" xml:space="preserve">
+    <value>Звёзды (поставьте на паузу перед использованием)</value>
   </data>
   <data name="btnComboStarReload.Text" xml:space="preserve">
     <value>Перезагрузить</value>
   </data>
-  <data name="btnAppearCollected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="btnAppearCollected.Text" xml:space="preserve">
     <value>Показать собранными</value>
   </data>
-  <data name="btnAppearUncollected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="btnAppearUncollected.Text" xml:space="preserve">
     <value>Показать несобранными</value>
-  </data>
-  <data name="lbStarAddresses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="lbStarAddresses.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 13</value>
@@ -152,11 +142,8 @@
   <data name="lbStarAddresses.Text" xml:space="preserve">
     <value>Адреса моделей:</value>
   </data>
-  <data name="groupStarsAppearance.Text" xml:space="preserve">
-    <value>Звёзды (поставьте на паузу перед использованием)</value>
-  </data>
-  <data name="btnFixBlackTextures.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="groupBlackTextures.Text" xml:space="preserve">
+    <value>Исправление чёрных текстур</value>
   </data>
   <data name="btnFixBlackTextures.Text" xml:space="preserve">
     <value>Исправить чёрные текстуры</value>
@@ -185,20 +172,11 @@
   <data name="comboBlackInput.Items3" xml:space="preserve">
     <value>4. Прозрачная RGBA-текстура с туманом (FC FF FF FF FF FC F2 38)</value>
   </data>
-  <data name="groupBlackTextures.Text" xml:space="preserve">
-    <value>Исправление чёрных текстур</value>
-  </data>
-  <data name="btnFixCam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="btnFixCam.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 23</value>
   </data>
   <data name="btnFixCam.Text" xml:space="preserve">
     <value>Испр. заморозку камеры</value>
-  </data>
-  <data name="checkNoHeadRotations.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="checkNoHeadRotations.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 77</value>
@@ -209,17 +187,14 @@
   <data name="checkNoHeadRotations.Text" xml:space="preserve">
     <value>Без поворотов головы</value>
   </data>
-  <data name="btnSmoke.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="groupMain.Text" xml:space="preserve">
+    <value>Основное</value>
   </data>
   <data name="btnSmoke.Location" type="System.Drawing.Point, System.Drawing">
     <value>173, 19</value>
   </data>
   <data name="btnSmoke.Text" xml:space="preserve">
     <value>Испр. текстуру дыма</value>
-  </data>
-  <data name="btnBlackBars.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="btnBlackBars.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 48</value>
@@ -230,9 +205,6 @@
   <data name="btnBlackBars.Text" xml:space="preserve">
     <value>Убрать чёрные полосы (тестируется)</value>
   </data>
-  <data name="checkNoShadowSimple.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="checkNoShadowSimple.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 77</value>
   </data>
@@ -242,17 +214,8 @@
   <data name="checkNoShadowSimple.Text" xml:space="preserve">
     <value>Без тени (простое)</value>
   </data>
-  <data name="groupMain.Text" xml:space="preserve">
-    <value>Основное</value>
-  </data>
-  <data name="btnAdvShRemove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnAdvShRemove.Text" xml:space="preserve">
-    <value>Тень</value>
-  </data>
-  <data name="checkMPRightFoot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="groupMP.Text" xml:space="preserve">
+    <value>Отображение частей тела (тестируется)</value>
   </data>
   <data name="checkMPRightFoot.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 263</value>
@@ -263,9 +226,6 @@
   <data name="checkMPRightFoot.Text" xml:space="preserve">
     <value>Ступня П</value>
   </data>
-  <data name="checkMPLegR2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="checkMPLegR2.Location" type="System.Drawing.Point, System.Drawing">
     <value>59, 240</value>
   </data>
@@ -274,9 +234,6 @@
   </data>
   <data name="checkMPLegR2.Text" xml:space="preserve">
     <value>Ступня П2</value>
-  </data>
-  <data name="checkMPLegR1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="checkMPLegR1.Location" type="System.Drawing.Point, System.Drawing">
     <value>59, 217</value>
@@ -287,17 +244,11 @@
   <data name="checkMPLegR1.Text" xml:space="preserve">
     <value>Ступня П1</value>
   </data>
-  <data name="checkMPLeftFoot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="checkMPLeftFoot.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 17</value>
   </data>
   <data name="checkMPLeftFoot.Text" xml:space="preserve">
     <value>Ступня Л</value>
-  </data>
-  <data name="checkMPLegL2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="checkMPLegL2.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
@@ -305,26 +256,17 @@
   <data name="checkMPLegL2.Text" xml:space="preserve">
     <value>Нога Л2</value>
   </data>
-  <data name="checkMPLegL1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="checkMPLegL1.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
   </data>
   <data name="checkMPLegL1.Text" xml:space="preserve">
     <value>Нога Л1</value>
   </data>
-  <data name="checkMPRightHand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="checkMPRightHand.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 17</value>
   </data>
   <data name="checkMPRightHand.Text" xml:space="preserve">
     <value>Кисть П</value>
-  </data>
-  <data name="checkMPArmR2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="checkMPArmR2.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 171</value>
@@ -335,9 +277,6 @@
   <data name="checkMPArmR2.Text" xml:space="preserve">
     <value>Рука П2</value>
   </data>
-  <data name="checkMPArmR1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="checkMPArmR1.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 148</value>
   </data>
@@ -346,9 +285,6 @@
   </data>
   <data name="checkMPArmR1.Text" xml:space="preserve">
     <value>Рука П1</value>
-  </data>
-  <data name="checkMPLeftHand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="checkMPLeftHand.Location" type="System.Drawing.Point, System.Drawing">
     <value>221, 194</value>
@@ -359,17 +295,11 @@
   <data name="checkMPLeftHand.Text" xml:space="preserve">
     <value>Кисть Л</value>
   </data>
-  <data name="checkMPArmL2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="checkMPArmL2.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 17</value>
   </data>
   <data name="checkMPArmL2.Text" xml:space="preserve">
     <value>Рука Л2</value>
-  </data>
-  <data name="checkMPArmL1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="checkMPArmL1.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 17</value>
@@ -377,17 +307,11 @@
   <data name="checkMPArmL1.Text" xml:space="preserve">
     <value>Рука Л1</value>
   </data>
-  <data name="checkMPTorso.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="checkMPTorso.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 17</value>
   </data>
   <data name="checkMPTorso.Text" xml:space="preserve">
     <value>Торс</value>
-  </data>
-  <data name="checkMPCore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="checkMPCore.Location" type="System.Drawing.Point, System.Drawing">
     <value>119, 194</value>
@@ -397,9 +321,6 @@
   </data>
   <data name="checkMPCore.Text" xml:space="preserve">
     <value>Корень</value>
-  </data>
-  <data name="checkMPHead.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="checkMPHead.Location" type="System.Drawing.Point, System.Drawing">
     <value>119, 78</value>
@@ -412,9 +333,6 @@
 Голова
  </value>
   </data>
-  <data name="groupMPHideAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="groupMPHideAll.Location" type="System.Drawing.Point, System.Drawing">
     <value>128, 306</value>
   </data>
@@ -424,62 +342,53 @@
   <data name="groupMPHideAll.Text" xml:space="preserve">
     <value>Спрятать все</value>
   </data>
-  <data name="groupMPShowAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="groupMPShowAll.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 23</value>
   </data>
   <data name="groupMPShowAll.Text" xml:space="preserve">
     <value>Показать все</value>
   </data>
-  <data name="pictureMP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="groupMP.Text" xml:space="preserve">
-    <value>Отображение частей тела (тестируется)</value>
-  </data>
-  <data name="btnRemoveSplashes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRemoveSplashes.Text" xml:space="preserve">
-    <value>Всплески воды</value>
-  </data>
-  <data name="btnRemoveWaterEffects.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRemoveWaterEffects.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 48</value>
-  </data>
-  <data name="btnRemoveWaterEffects.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 23</value>
-  </data>
-  <data name="btnRemoveWaterEffects.Text" xml:space="preserve">
-    <value>Эффекты воды</value>
-  </data>
-  <data name="btnRemoveBubbles.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRemoveBubbles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 23</value>
-  </data>
-  <data name="btnRemoveBubbles.Text" xml:space="preserve">
-    <value>Пузыри</value>
-  </data>
-  <data name="btnRemoveSparkles.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRemoveSparkles.Text" xml:space="preserve">
-    <value>Искры</value>
-  </data>
-  <data name="btnRemoveDust.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRemoveDust.Text" xml:space="preserve">
-    <value>Пыль</value>
-  </data>
   <data name="groupAdvancedTexture.Text" xml:space="preserve">
     <value>Продвинутое убирание текстур</value>
+  </data>
+  <data name="buttonATRShowAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 106</value>
+  </data>
+  <data name="buttonATRShowAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="buttonATRShowAll.Text" xml:space="preserve">
+    <value>Показать всё</value>
+  </data>
+  <data name="buttonATRHideAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 77</value>
+  </data>
+  <data name="buttonATRHideAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="buttonATRHideAll.Text" xml:space="preserve">
+    <value>Спрятать всё</value>
+  </data>
+  <data name="buttonATRShow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 48</value>
+  </data>
+  <data name="buttonATRShow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="buttonATRShow.Text" xml:space="preserve">
+    <value>Показать</value>
+  </data>
+  <data name="buttonATRHide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 19</value>
+  </data>
+  <data name="buttonATRHide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="buttonATRHide.Text" xml:space="preserve">
+    <value>Спрятать</value>
+  </data>
+  <data name="treeView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 110</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

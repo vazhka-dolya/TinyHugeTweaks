@@ -42,6 +42,9 @@
     <Reference Include="HtmlRenderer.WinForms, Version=1.5.0.6, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\HtmlRenderer.WinForms.1.5.0.6\lib\net45\HtmlRenderer.WinForms.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,6 +58,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\kataraktaTreeView\kataraktaTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="frmAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,11 +87,21 @@
     <EmbeddedResource Include="mainForm.ru.resx">
       <DependentUpon>mainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ru.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="Properties\Resources.ru.Designer.cs">
+      <DependentUpon>Resources.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
@@ -101,6 +117,30 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TinyHugeTweaks\ImageData\bubble.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\bubble_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\butterfly.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\butterfly_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\coin.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\coin_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\dust.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\dust_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\explosion.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\explosion_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\shadow_round.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\shadow_round_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\shadow_square.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\shadow_square_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\snow_particle.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\snow_particle_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\sparkle.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\sparkle_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\water.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\water_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\water_particle.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\water_particle_empty.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\water_splash.kcscache.bin" />
+    <None Include="TinyHugeTweaks\ImageData\water_splash_empty.kcscache.bin" />
     <None Include="TinyHugeTweaks\starAddresses.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

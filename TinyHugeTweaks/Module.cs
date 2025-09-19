@@ -14,7 +14,7 @@ namespace TinyHugeTweaks
 
         public string SafeName => "Tiny-Huge Tweaks";
 
-        public string Description => "Various tweaks that may come in handy for Super Mario 64 machinimas.";
+        public string Description => Resources.m64mm_desc;
 
         public Image AddonIcon => Resources.tbk_icon_m;
 
@@ -26,7 +26,7 @@ namespace TinyHugeTweaks
         public List<ToolCommand> GetCommands()
         {
             List<ToolCommand> tcl = new List<ToolCommand>();
-            ToolCommand tcOpen = new ToolCommand("Open Tiny-Huge Tweaks");
+            ToolCommand tcOpen = new ToolCommand(Resources.m64mm_open);
             tcOpen.Summoned += (a, b) => openForm();
             tcl.Add(tcOpen);
             return tcl;
