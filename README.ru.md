@@ -3,7 +3,7 @@
 # Tiny-Huge Tweaks
 Это адд-он для [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM), представляющий Вам различный функционал, позволяющий сэкономить время, а также чуть-чуть улучшить Ваши СМ64-машинимы.
 <p align="center">
-  <img src="https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/GitHubImg/ReadmeImage3_rus.png"/>
+  <img src="https://github.com/vazhka-dolya/TinyHugeTweaks/blob/main/GitHubImg/ReadmeImage4_rus.png"/>
 </p>
 
 # Установка и использование
